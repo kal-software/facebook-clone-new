@@ -44,7 +44,7 @@ function Body() {
   return (
 
     
-      <div className="mt-2 ml-2">
+      <div className="mt-2 ml-2 border-b-2 border-black">
         
       <div className="mt-0 ">
         <Slider {...settings}>
