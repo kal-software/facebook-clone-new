@@ -44,9 +44,9 @@ function Body() {
   return (
 
     
-      <div className="mt-2 ml-2 border-b-2 border-black">
+      <div className="mt-2 ml-2 border-b-2 border-gray-300 ">
         
-      <div className="mt-0 ">
+      <div className="mt-0 -mb-1 ">
         <Slider {...settings}>
           {Stories.map((story) => (
           <div className="">
