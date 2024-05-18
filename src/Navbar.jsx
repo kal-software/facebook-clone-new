@@ -13,9 +13,10 @@ import { FaFacebookMessenger } from "react-icons/fa6";
 function Navbar() {
   return (
     <>
+          
       <div className="bg-white h-32 md:h-14 lg:h-14   shadow-sm shadow-slate-200 ">
         <div className="lg:grid lg:grid-flow-col md:grid md:grid-flow-col lg:w-16 flex flex-row md:grid grid-flow-col">
-          <div className="lg:grid lg:grid-flow-col md:grid grid- ">
+          <div className="lg:grid lg:grid-flow-col   md:grid grid- ">
             <FaFacebook className="text-blue-600 lg:text-3xl text-2xl ml-4  lg:ml-3 mt-4 md:text-3xl" />
             <input
               type="text"
@@ -26,7 +27,7 @@ function Navbar() {
               <BsSearch className="lg:absolute absolute  top-16 -left-12 md:absolute md:top-6 md:-left-44  ml-60 lg:top-6 lg:left-15 text-md text-slate-500" />
             </a>
           </div>
-          <div className="lg:grid lg:grid-flow-col md:grid md:grid-flow-col flex justify-between lg:w-80 -ml-48  w-32 lg:ml-40 mt-20 text-2xl lg:text-xl mt-4  text-slate-500">
+          <div className="lg:grid lg:grid-flow-col  md:grid md:grid-flow-col flex justify-between lg:w-80 -ml-48  w-32 lg:ml-40 mt-20 text-2xl lg:text-xl mt-4  text-slate-500">
             <a href="#">
               <BiHomeAlt className="hover:text-black mr-6 ml-3 " />
             </a>
