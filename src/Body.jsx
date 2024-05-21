@@ -33,7 +33,7 @@ import { MdSend } from "react-icons/md";
 
 function Body() {
   const settings = {
-    dots: true,
+    dots:true,
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -42,424 +42,488 @@ function Body() {
   };
   return (
     <div>
-    <div className = "bg-gray-200 lg:grid lg:grid-flow-col"> 
-    <div className="left-c lg:h-96 invisible  lg:visible lg:grid lg:grid-flow-row lg:ml-5 lg:w-44  ">
-        <div className="name-div lg:ml-5 lg:grid lg:grid-flow-col mt-3 mb-3 ">
-          <img src="./pic50.jpg" className=" lg:w-6 lg:h-6 rounded-full lg:-ml-5" />
+    <div className = "bg-gray-200  lg:grid lg:grid-flow-col lg:grid-cols-3 md:grid-cols-3 md:grid md:grid-flow-col"> 
+    <div className="left-c lg:h-96 md:h-96   lg:grid lg:grid-flow-row lg:ml-5 lg:w-44  md:grid md:grid-flow-row md:ml-5 md:w-44   ">
+        <div className="name-div  hidden sm:block  lg:ml-5 md:-ml-1 lg:grid lg:grid-flow-col md:ml-5 md:grid md:grid-flow-col mt-3 mb-3  md:mt-3">
+          <img src="./pic50.jpg" className=" lg:w-6 lg:h-6 md:w-5 md:h-5 md:mt-2  md:rounden-full rounded-full lg:-ml-5" />
           <a href="#" className="KA">
-            <p className="kalkidan lg:-ml-3 ">Kalkidan solomon</p>
+            <p className="kalkidan lg:-ml-3 md:mt-1 md:text-md -ml-4 ">Kalkidan solomon</p>
           </a>
         </div>
-        <div className="friends-div lg:grid lg:grid-flow-col  lg:-mb-1 mt-2 ">
-          <FaUserFriends className="icon-image1 lg:-mr-3 text-blue-500 lg:text-xl" />
+        <div className="friends-div hidden sm:block md:mt-1  lg:grid lg:grid-flow-col md:grid md:grid-flow-col  lg:-mb-1 mt-2 ">
+          <FaUserFriends className="icon-image1 lg:-mr-3 text-blue-500 md:-mr-3 lg:text-xl md:text-xl" />
           <a href="#" className="FA">
-            <p className="friends lg:-ml-16">Friends</p>
+            <p className="friends lg:-ml-16 md:text-md md:-ml-16">Friends</p>
           </a>
         </div>
-        <div className="feeds-container lg:grid lg:grid-flow-col  lg:mt-4  ">
-          <MdOutlineOndemandVideo className="icon-image2 lg:-mr-3 text-blue-500 lg:text-xl" />
+        <div className="feeds-container md:mt-3 hidden md:grid md:grid-flow-col lg:grid lg:grid-flow-col  lg:mt-4  ">
+          <MdOutlineOndemandVideo className="icon-image2 lg:-mr-3 md:-mr-3 text-blue-500 lg:text-xl md:text-xl" />
           <a href="#" className="FA">
-            <p className="feeds lg:-ml-16">Feeds</p>
+            <p className="feeds lg:-ml-16 md:text-md md:-ml-16">Feeds</p>
           </a>
         </div>
-        <div className="groups-container lg:grid lg:grid-flow-col lg:mt-4 ">
-          <MdGroupWork className="icon-image3 lg:-mr-3 text-blue-500 lg:text-xl" />
+        <div className="groups-container hidden md:mt-3 md:grid md:grid-flow-col  lg:grid lg:grid-flow-col lg:mt-4 ">
+          <MdGroupWork className="icon-image3 lg:-mr-3 text-blue-500 lg:text-xl md:text-xl md:-mr-3" />
           <a href="#" className="GA">
-            <p className="groups lg:-ml-16">Groups</p>
+            <p className="groups lg:-ml-16 md:-ml-16 md:text-md">Groups</p>
           </a>
         </div>
-        <div className="market-container lg:grid lg:grid-flow-col lg:mt-4">
-          <CiShop className="icon-image4 lg:-mr-2  text-blue-500 lg:text-xl" />
+        <div className="market-container md:mt-3 hidden md:grid md:grid-flow-col  lg:grid lg:grid-flow-col lg:mt-4">
+          <CiShop className="icon-image4 lg:-mr-2  text-blue-500 lg:text-xl md:text-xl md:-mr-2" />
           <a href="#" className="MA">
             {" "}
-            <p className="market lg:-ml-12">MarketPlace</p>
+            <p className="market lg:-ml-12 md:text-md md:-ml-12">MarketPlace</p>
           </a>
         </div>
-        <div className="video-container lg:grid lg:grid-flow-col lg:mt-4">
-          <MdOutlineOndemandVideo className="icon-image5 lg:-mr-2  text-blue-500 lg:text-xl" />
+        <div className="video-container md:mt-3 hidden md:grid md:grid-flow-col  lg:grid lg:grid-flow-col lg:mt-4">
+          <MdOutlineOndemandVideo className="icon-image5 lg:-mr-2 md:text-xl md:-mr-2  text-blue-500 lg:text-xl" />
           <a href="#" className="VA">
-            <p className="video lg:-ml-16">Video</p>
+            <p className="video lg:-ml-16 md:text-md md:-ml-16">Video</p>
           </a>
         </div>
-        <div className="memory-container lg:grid lg:grid-flow-col  lg:mt-4">
-          <RiMemoriesLine className="icon-image6  lg:-mr-2  text-blue-500 lg:text-xl" />
+        <div className="memory-container md:mt-3 hidden md:grid md:grid-flow-col  lg:grid lg:grid-flow-col  lg:mt-4">
+          <RiMemoriesLine className="icon-image6 md:text-xl md:-mr-2  lg:-mr-2  text-blue-500 lg:text-xl" />
           <a href="#" className="MA">
-            <p className="memory lg:-ml-16">Memories</p>
+            <p className="memory lg:-ml-16 md:text-md md:-ml-16">Memories</p>
           </a>
         </div>
-        <div className="saved-container lg:grid lg:grid-flow-col lg:mt-4">
-          <CiBookmark className="icon-image7 lg:-mr-2  text-blue-500 lg:text-xl" />
+        <div className="saved-container hidden md:mt-3 md:grid md:grid-flow-col  lg:grid lg:grid-flow-col lg:mt-4">
+          <CiBookmark className="icon-image7 lg:-mr-2 md:text-xl md:-mr-3  text-blue-500 lg:text-xl" />
           <a href="#" className="SA">
-            <p className="saved lg:-ml-16">Saved</p>
+            <p className="saved lg:-ml-16 md:text-md md:-ml-16">Saved</p>
           </a>
         </div>
-        <div className="page-container lg:grid lg:grid-flow-col lg:mt-3">
-          <FaFlag className="icon-image8 lg:-mr-2  text-blue-500 lg:text-xl"  />
+        <div className="page-container md:mt-3 hidden md:grid md:grid-flow-col  lg:grid lg:grid-flow-col lg:mt-3">
+          <FaFlag className="icon-image8 lg:-mr-2 md:text-xl md:-mr-2 text-blue-500 lg:text-xl"  />
           <a href="#" className="PA">
-            <p className="page lg:-ml-16">Pages</p>
+            <p className="page lg:-ml-16 md:text-md md:-ml-16">Pages</p>
           </a>
         </div>
-        <div className="event-container lg:grid lg:grid-flow-col lg:mt-4">
-          <MdOutlineEventBusy className="icon-image9 lg:-mr-2  text-blue-500 lg:text-xl" />
+        <div className="event-container md:mt-3  hidden md:grid md:grid-flow-col  lg:grid lg:grid-flow-col lg:mt-4">
+          <MdOutlineEventBusy className="icon-image9 lg:-mr-2 md:text-xl md:-mr-3 text-blue-500 lg:text-xl" />
           <a href="#" className="EA">
-            <p className="event lg:-ml-16">Events</p>
+            <p className="event lg:-ml-16 md:text-md md:-ml-16">Events</p>
           </a>
         </div>
-        <div className="ads-container lg:grid lg:grid-flow-col lg:mt-4">
-          <BsFillFileEarmarkSpreadsheetFill className="icon-image10 lg:-mr-2  text-blue-500 lg:text-xl" />
+        <div className="ads-container md:mt-3 hidden md:grid md:grid-flow-col  lg:grid lg:grid-flow-col lg:mt-4">
+          <BsFillFileEarmarkSpreadsheetFill className="icon-image10 md:text-xl  lg:-mr-2  text-blue-500 lg:text-xl" />
           <a href="#" className="AA">
-            <p className="ads lg:-ml-10">Ads Manager</p>
+            <p className="ads lg:-ml-10 md:text-md md:-ml-12">Ads Manager</p>
           </a>
         </div>
-        <div className="see-container lg:grid lg:grid-flow-col lg:mt-4">
+        <div className="see-container md:mt-5 hidden md:grid md:grid-flow-col  lg:grid lg:grid-flow-col lg:mt-4">
           <a href="#">
-            < FaChevronDown className="icon-image11 lg:-mr-2  text-black lg:text-xl" />{" "}
+            < FaChevronDown className="icon-image11 lg:-mr-2 md:-mr-3 md:mt-1 md:text-xl  text-black lg:text-xl" />{" "}
           </a>
           <a href="#" className="pA">
-            <p className="ads lg:-ml-16">See more</p>
+            <p className="ads lg:-ml-16 md:text-md md:-ml-16">See more</p>
           </a>
         </div>
-        <footer className="footer">
+        <footer className="footer hidden sm:block text-xs mt-5 text-gray-500 ">
           Privacy - Terms -Advertizing -Ad Choices . Cookies.<br/>More . Meta &copy; 2024
         </footer>
       </div>
-      <div className="mt-2 ml-2 border-b-2  border-gray-300 ">
+      <div className="mt-2 ml-2 md:overflow-auto overflow-scroll h-1/5 md:pr-2  mr-5 md:border-none md:-ml-20 md:w-86">
         
-      <div className="mt-0 -mb-1 ">
+      <div className="mt-2 -mb-1  ">
         <Slider {...settings}>
           {Stories.map((story) => (
-          <div className="">
+          <div className="mt-2">
        <div><img src={story.image} className="w-24 h-28 rounded-md pl-1 "/></div> 
-        <div className="text-sm font-mono text-white -mt-6 ml-2 ">{story.text}</div>
-        <div> <button className="w-6 h-6 rounded-full bg-green-400 absolute top-1 ml-2"></button> </div>
+        <div className="text-sm font-mono text-white -mt-10 ml-2 ">{story.text}</div>
+        <div> <button className="w-6 h-6 rounded-full bg-green-400 absolute top-3 ml-2"></button> </div>
          </div>
              
             
           ))}
            </Slider>
-           <div className="middle-middle-div invisible">
-<div className="middle-image-container">
-  <img src="./pic50.jpg" height={30} width={30} className="middle-image"/>
-  <input type="text" placeholder="What's on your mind kal?" className="input"/>
+           <div className="middle-middle-div md:text-sm mt-6 bg-white w-72  md:pr-1 md:h-24 h-16 rounded-md md:w-full">
+<div className="middle-image-container grid grid-flow-col md:border-b md:border-b-1 sm:mt-1  md:pb-2 pt-5   md:border-gray   md:mt-6 md:pt-3  md:ml-3 md:mr-3 md:grid md:grid-flow-col ">
+  <img src="./pic50.jpg" height={30} width={30} className="middle-image rounded-full ml-4  md:ml-2 md:w-6 w-6 h-6 md:h-6 md:rounded-full"/>
+  <input type="text" placeholder="What's on your mind kal?" className="input md:placeholder-sm pl-7 w-52 md:-ml-7 md:w-56 -ml-7 md:bg-white  border-gray-400 border-2 md:bg-gray-200 md:pl-2 rounded-xl placeholder-black placeholder-shown:text-sm"/>
 </div>
-<div  className="middle-manager">
-  <div className="liveDiv">
-    <RiLiveFill className="video"/>
-    <p className="video-p">Live Video</p>
+<div  className="middle-manage md:text-sm md:mt-3 hidden md:mt-1sm:block md:grid md:grid-flow-col">
+  <div className="liveDiv md:grid md:grid-flow-col md:ml-5  ">
+    <RiLiveFill className="video text-red-600"/>
+    <p className="video-p md:-mt-1 md:-ml-1">Live Video</p>
   </div>
-  <div className="photo-div">
-    <BiSolidPhotoAlbum className="photo-icon"/>
-    <p className="photo-p">Photo/Video</p>
+  <div className="photo-div md:grid md:grid-flow-col">
+    <BiSolidPhotoAlbum className="photo-icon text-green-400"/>
+    <p className="photo-p md:-mt-1 md:-ml-1">Photo/Video</p>
   </div>
-  <div className="imoj-div">
-    <BiHappyAlt className="imoj-icon"/>
-    <p className="imoj-p">Felling/activity</p>
+  <div className="imoj-div md:grid md:grid-flow-col">
+    <BiHappyAlt className="imoj-icon text-yellow-400"/>
+    <p className="imoj-p md:-mt-1 md:-ml-1">Felling/activity</p>
   </div>
 </div> 
 
 </div>
-<div>
-  <div className="info-div invisible">
-    <div className="div">
+<div className=" mt-2 bg-white pt-3 md:pt-1  ">
+  <div className="info-div  grid  grid-flow-col w-44  md:mt-5 md:pt-1 md:pl-1">
+    <div className=" grid grid-flow-col pl-3 ">
       <div>
-        <img src="./pic50.jpg" width={30} height={30} className="info-img"/>
+        <img src="./pic50.jpg  " className="info-img rounded-full w-6 h-6  md:w-6 md:h-6 md:rounded-full" />
       </div>
-      <div>
-      <p className="chirs">Cristiano Ronaldo</p>
-        <p className="yesterday">Yesterday at 1:25 PM.<FaGlobeAmericas/> </p>
-        <p className="black">Back fo more</p>
+      <div className="">
+      <p className="chirs text-xs font-semibold  ml-2 md:ml-2">Cristiano Ronaldo</p>
+        <p className="yesterday text-xs text text-gray-400 ml-2">Yesterday at1:25 pm.<FaGlobeAmericas className="ml-28 text-small -mt-3"/> </p>
+        <p className="black text-xs mt-2 ml-2 mb-2">Back fo more</p>
 
       </div>
     </div>
-    <div className="right-close">
-   <a href="#" className="a">< BsThreeDots className="dots"/></a>   
-   <a href="#" className="a"><IoMdClose className="close"/></a>    
+    <div className="right-close w-1 grid grid-flow-col  ">
+   <a href="#" className="a">< BsThreeDots className="dots ml-16 md:ml-28 text-gray-600 "/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 "/></a>    
     </div>
   </div>
   <div>
-    <img src="./pic41.jpg" width={534} height={400}/>
+    <img src="./pic41.jpg" className="w-68 h-72"/>
   </div>
-  <div className="father-comment">
-    <div className="comments-field">
-      <div className="interal-comments">
-      <BiLike className="lought"/>
-      <FcLike  className="likes"/>
-      <div className="span">43</div>
+  <div className="father-comment grid grid-flow-row">
+    <div className="comments-field grid grid-flow-col border-b border-gray-500 md:ml-1 md:mr-1 ">
+      <div className="interal-comments mt-2   grid grid-flow-col">
+      <BiLike className="lought ml-1  text-gray-600 "/>
+      <FcLike  className="likes -ml-6 md:-ml-1"/>
+      <div className="span -ml-8 text-sm text-blue-600 md:-ml-1">43</div>
 
       </div>
-     <div className="comments">14 Comments</div>
+     <div className="comments md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold">14 Comments</div>
 
     </div>
-    <div className="comment-container">
-    <div className="likee">
+    <div className="comment-container md:ml-1 mt-3 mb-5 pb-2 grid grid-flow-col">
+    <div className="likee grid grid-flow-col">
     <div>
-          < BiLike className="like-icon"/>
+          < BiLike className="like-icon ml-1 text-gray-600"/>
         </div>
-        <div className="like-p">Like</div>
+        <div className="like-p text-xs -ml-7 text-gray-600 md:-ml-6">Like</div>
       </div>
-      <div className="comment">
+      <div className="comment grid grid-flow-col -ml-1 md:ml-2">
         <div>
-          <FaRegComment className="comment-icon"/>
+          <FaRegComment className="comment-icon -ml-2 text-gray-600"/>
         </div>
-        <div className="comment-p">Comment</div>
+        <div className="comment-p text-gray-600 -ml-7 text-xs md:-ml-6">Comment</div>
       </div>
-      <div className="send">
+      <div className="send grid grid-flow-col -ml-2 md:ml-2">
         <div>
-          <MdSend className="send-icon"/>
+          <MdSend className="send-icon text-gray-600 -ml-2"/>
         </div>
-        <div className="send-p">Send</div>
+        <div className="send-p text-gray-600 text-xs -ml-7 ">Send</div>
       </div>
-      <div className="share">
+      <div className="share grid grid-flow-col">
         <div>
-          < PiShareFat className="share-icon"/>
+          < PiShareFat className="share-icon text-gray-600 -ml-1 "/>
         </div>
-        <div className="share-p">Share</div>
+        <div className="share-p text-gray-600 text-xs mr-12 -ml-7 md:-mr-20">Share</div>
       </div>
     </div>
   </div>
 </div>   
-<div>
-  <div className="info-div">
-    <div className="div">
+<div className="border-t  mt-2 bg-white  ">
+  <div className="info-div grid pt-3  grid-flow-col w-44 mt-1 md:mt-5 md:pt-1 md:pl-1">
+    <div className="div grid grid-flow-col pl-3">
       <div>
-        <img src="./pic50.jpg" width={30} height={30} className="info-img"/>
+        <img src="./pic50.jpg" width={30} height={30} className="info-img rounded-full w-6 h-6 md:w-7 md:h-6  md:rounded-full"/>
       </div>
       <div>
-      <p className="chirs">Cristiano Ronaldo</p>
-        <p className="yesterday">Yesterday at 1:25 PM.<FaGlobeAmericas/> </p>
-        <p className="black">Back fo more</p>
+      <p className="chirs text-xs font-semibold ml-2">Cristiano Ronaldo</p>
+        <p className="yesterday text-xs text text-gray-400 ml-2">Yesterday at 1:25 PM.<FaGlobeAmericas className="ml-28 text-small -mt-3"/> </p>
+        <p className="black text-xs mt-2 ml-2 mb-2">Back fo more</p>
 
       </div>
     </div>
-    <div className="right-close">
-   <a href="#" className="a">< BsThreeDots className="dots"/></a>   
-   <a href="#" className="a"><IoMdClose className="close"/></a>    
+    <div className="right-close  w-1 grid grid-flow-col">
+   <a href="#" className="a">< BsThreeDots className="dots md:ml-28 ml-16 text-gray-600 "/></a>   
+   <a href="#" className="a"><IoMdClose className="close  ml-2 text-gray-600 "/></a>    
     </div>
   </div>
   <div>
-    <img src="./pic8.jpg" width={534} height={400}/>
+    <img src="./pic8.jpg"  className="w-72 h-72 md:w-96"/>
   </div>
-  <div className="father-comment">
-    <div className="comments-field">
-      <div className="interal-comments">
-      <BiLike className="lought"/>
-      <FcLike  className="likes"/>
-      <div className="span">43</div>
+  <div className="father-comment  grid grid-flow-row">
+    <div className="comments-field  grid grid-flow-col md:ml-1 md:mr-1 border-b border-gray-500 border-b-2 md:pb-1">
+      <div className="interal-comments grid grid-flow-col md:pt-2">
+      <BiLike className="lought ml-1 text-gray-600 "/>
+      <FcLike  className="likes -ml-6 md:-ml-1"/>
+      <div className="span md:-ml-1 -ml-8 text-sm text-blue-600">43</div>
 
       </div>
-     <div className="comments">14 Comments</div>
+     <div className="comments md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold">14 Comments</div>
 
     </div>
-    <div className="comment-container">
-      <div className="likee">
+    <div className="comment-container md:ml-1  md:mr-1  mt-3 mb-5 pb-2  grid grid-flow-col">
+      <div className="likee grid grid-flow-col">
         <div>
-          <like-icon className="like-icon"/>
+          <BiLike className="like-icon ml-1 text-gray-600"/>
         </div>
-        <div className="like-p">Like</div>
+        <div className="like-p text-xs -ml-7 text-gray-600 md:-ml-6">Like</div>
       </div>
-      <div className="comment">
+      <div className="comment grid grid-flow-col -ml-1 md:ml-2">
         <div>
-          <FaRegComment className="comment-icon"/>
+          <FaRegComment className="comment-icon -ml-2 text-gray-600"/>
         </div>
-        <div className="comment-p">Comment</div>
+        <div className="comment-p text-gray-600 -ml-7 text-xs md:-ml-6">Comment</div>
       </div>
-      <div className="send">
+      <div className="send grid grid-flow-col -ml-2 md:ml-2">
         <div>
-          <MdSend className="send-icon"/>
+          <MdSend className="send-icon  text-gray-600 -ml-2"/>
         </div>
-        <div className="send-p">Send</div>
+        <div className="send-p text-gray-600 text-xs -ml-6">Send</div>
       </div>
-      <div className="share">
+      <div className="share grid grid-flow-col">
         <div>
-          < PiShareFat className="share-icon"/>
+          < PiShareFat className="share-icon text-gray-600 -ml-1 md:ml-3"/>
         </div>
-        <div className="share-p">Share</div>
+        <div className="share-p text-gray-600 text-xs mr-12 -ml-7 md:-ml-6 md:-mr-2">Share</div>
       </div>
     </div>
   </div>
 </div>
-<div>
-  <div className="info-div">
-    <div className="div">
+<div className="border-t  mt-2  bg-white ">
+  <div className="info-div grid  grid-flow-col w-44 mt-1 pt-3 md:mt-5 md:pt-4 md:pl-1 md:pl-1">
+    <div className="div grid grid-flow-col pl-3">
       <div>
-        <img src="./pic7.jpg" width={30} height={30} className="info-img"/>
+        <img src="./pic7.jpg" width={30} height={30} className="info-img rounded-full w-6 h-6 md:w-7 md:h-6 md:rounded-full"/>
       </div>
       <div>
-      <p className="chirs">Yared Solomon</p>
-        <p className="yesterday">Yesterday at 1:25 PM.<FaGlobeAmericas/> </p>
-        <p className="black">Back fo more</p>
+      <p className="chirs text-xs font-semibold ml-2">Yared Solomon</p>
+        <p className="yesterday text-xs text text-gray-400 ml-2">Yesterday at 1:25 PM.<FaGlobeAmericas className="ml-28 text-small -mt-3"/> </p>
+        <p className="black text-xs mt-2 ml-2 mb-2">Back fo more</p>
 
       </div>
     </div>
-    <div className="right-close">
-   <a href="#" className="a">< BsThreeDots className="dots"/></a>   
-   <a href="#" className="a"><IoMdClose className="close"/></a>    
+    <div className="right-close w-1 grid grid-flow-col">
+   <a href="#" className="a">< BsThreeDots className="dots ml-16 text-gray-600 md:ml-28 ml-16"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600"/></a>    
     </div>
   </div>
   <div>
-    <img src="./pic31.jpg" width={534} height={400}/>
+    <img src="./pic31.jpg" className="w-72 h-72 md:w-96"/>
   </div>
-  <div className="father-comment">
-    <div className="comments-field">
-      <div className="interal-comments">
-      <BiLike className="lought"/>
-      <FcLike  className="likes"/>
-      <div className="span">43</div>
+  <div className="father-comment grid grid-flow-row">
+    <div className="comments-field grid grid-flow-col md:ml-1 md:mr-1 md:pb-1 border-b border-gray-500 border-b-2  ">
+      <div className="interal-comments grid grid-flow-col md:pt-2">
+      <BiLike className="lought ml-1 text-gray-600 "/>
+      <FcLike  className="likes -ml-6 md:-ml-1"/>
+      <div className="span -ml-8 text-sm text-blue-600 md:-ml-1">43</div>
 
       </div>
-     <div className="comments">14 Comments</div>
+     <div className="comments  md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold">14 Comments</div>
 
     </div>
-    <div className="comment-container">
-      <div className="likee">
+    <div className="comment-container md:ml-1  md:mr-1  mt-3  mb-5 pb-2  grid grid-flow-col">
+      <div className="likee grid grid-flow-col">
         <div>
-          <like-icon className="like-icon"/>
+          <BiLike className="like-icon ml-1 text-gray-600"/>
         </div>
-        <div className="like-p">Like</div>
+        <div className="like-p text-xs -ml-7 text-gray-600 md:-ml-6">Like</div>
       </div>
-      <div className="comment">
+      <div className="comment grid grid-flow-col -ml-1 md:ml-2">
         <div>
-          <FaRegComment className="comment-icon"/>
+          <FaRegComment className="comment-icon -ml-2 text-gray-600"/>
         </div>
-        <div className="comment-p">Comment</div>
+        <div className="comment-p text-gray-600 -ml-7 text-xs md:-ml-6">Comment</div>
       </div>
-      <div className="send">
+      <div className="send grid grid-flow-col -ml-1 md:ml-1">
         <div>
-          <MdSend className="send-icon"/>
+          <MdSend className="send-icon text-gray-600 -ml-2"/>
         </div>
-        <div className="send-p">Send</div>
+        <div className="send-p text-gray-600 text-xs -ml-7">Send</div>
       </div>
-      <div className="share">
+      <div className="share grid grid-flow-col">
         <div>
-          < PiShareFat className="share-icon"/>
+          < PiShareFat className="share-icon text-gray-600 -ml-1 md:ml-3"/>
         </div>
-        <div className="share-p">Share</div>
+        <div className="share-p text-gray-600 text-xs mr-12 -ml-7 md:-ml-6 md:-mr-2">Share</div>
       </div>
     </div>
   </div>
 </div>
-<div>
-  <div className="info-div">
-    <div className="div">
+<div className="border-t  mt-2 bg-white ">
+  <div className="info-div  grid  grid-flow-col w-44 mt-1 md:mt-5 md:pt-4 md:pl-1 pt-3 md:pl-1">
+    <div className="div grid grid-flow-col pl-3">
       <div>
-        <img src="./pic50.jpg" width={30} height={30} className="info-img"/>
+        <img src="./pic50.jpg"  className="info-img info-img rounded-full w-6 h-6 md:w-7 md:h-6 md:rounded-full"/>
       </div>
       <div>
-      <p className="chirs">Kalkidan Solomon</p>
-        <p className="yesterday">Yesterday at 1:25 PM.<FaGlobeAmericas/> </p>
-        <p className="black">Back fo more</p>
+      <p className="chirs text-xs font-semibold ml-2">Kalkidan Solomon</p>
+        <p className="yesterday text-xs text text-gray-400 ml-2">Yesterday at 1:25 PM.<FaGlobeAmericas className="ml-28 text-small -mt-3"/> </p>
+        <p className="black text-xs mt-2 ml-2 mb-2">Back fo more</p>
 
       </div>
     </div>
-    <div className="right-close">
-   <a href="#" className="a">< BsThreeDots className="dots"/></a>   
-   <a href="#" className="a"><IoMdClose className="close"/></a>    
+    <div className="right-close w-1 grid grid-flow-col">
+   <a href="#" className="a">< BsThreeDots className="dots ml-16 text-gray-600 md:ml-28"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600"/></a>    
     </div>
   </div>
   <div>
-    <img src="./pic48.jpg" width={534} height={400}/>
+    <img src="./pic48.jpg" width={534} height={400} className="w-72 h-72 md:w-96"/>
   </div>
-  <div className="father-comment">
-    <div className="comments-field">
-      <div className="interal-comments">
-      <BiLike className="lought"/>
-      <FcLike  className="likes"/>
-      <div className="span">43</div>
+  <div className="father-comment grid grid-flow-row">
+    <div className="comments-field grid grid-flow-col md:ml-1 md:mr-1 md:pb-1 border-b border-gray-500">
+      <div className="interal-comments grid grid-flow-col md:pt-2">
+      <BiLike className="lought ml-1 text-gray-600 "/>
+      <FcLike  className="likes -ml-6 md:-ml-1"/>
+      <div className="span -ml-8 text-sm text-blue-600 md:-ml-1">43</div>
 
       </div>
-     <div className="comments">14 Comments</div>
+     <div className="comments text-xs ml-28 mt-2 text-gray-600 font-semibold md:ml-48">14 Comments</div>
 
     </div>
-    <div className="comment-container">
-      <div className="likee">
+    <div className="comment-container mt-3  grid grid-flow-col md:ml-1  md:mr-1 md:pb-5">
+      <div className="likee grid grid-flow-col">
         <div>
-          <like-icon className="like-icon"/>
+          <BiLike  className="like-icon ml-1 text-gray-600"/>
         </div>
-        <div className="like-p">Like</div>
+        <div className="like-p text-xs -ml-7 text-gray-600 md:-ml-6">Like</div>
       </div>
-      <div className="comment">
+      <div className="comment grid grid-flow-col -ml-1 md:ml-2">
         <div>
-          <FaRegComment className="comment-icon"/>
+          <FaRegComment className="comment-icon -ml-2 text-gray-600"/>
         </div>
-        <div className="comment-p">Comment</div>
+        <div className="comment-p  text-gray-600 -ml-7 text-xs md:-ml-6">Comment</div>
       </div>
-      <div className="send">
+      <div className="send grid grid-flow-col -ml-2 md:ml-1">
         <div>
-          <MdSend className="send-icon"/>
+          <MdSend className="send-icon text-gray-600 -ml-2"/>
         </div>
-        <div className="send-p">Send</div>
+        <div className="send-p text-gray-600 text-xs -ml-7">Send</div>
       </div>
-      <div className="share">
+      <div className="share  grid grid-flow-col">
         <div>
-          < PiShareFat className="share-icon"/>
+          < PiShareFat className="share-icon text-gray-600 -ml-3 md:ml-3"/>
         </div>
-        <div className="share-p">Share</div>
+        <div className="share-p text-gray-600 text-xs mr-12 -ml-7 md:-ml-6 md:-mr-2">Share</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="border-t  mt-2 bg-white">
+  <div className="info-div grid  grid-flow-col w-44 mt-1 md:mt-5 md:pt-4 md:pl-2 pt-3 md:pl-1">
+    <div className="div grid grid-flow-col ">
+      <div>
+        <img src="./pic7.jpg" width={30} height={30} className="info-img rounded-full w-6 h-6"/>
+      </div>
+      <div>
+      <p className="chirs text-xs font-semibold ml-2">Yared Solomon</p>
+        <p className="yesterday text-xs text text-gray-400 ml-2">Yesterday at 1:25 PM.<FaGlobeAmericas className="ml-28 text-small -mt-3"/> </p>
+        <p className="black text-xs mt-2 ml-2 mb-2">Back fo more</p>
+
+      </div>
+    </div>
+    <div className="right-close w-1 grid grid-flow-col">
+   <a href="#" className="a">< BsThreeDots className="dots ml-16 text-gray-600 md:ml-28"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600"/></a>    
+    </div>
+  </div>
+  <div>
+    <img src="./pic43.jpg" className="w-72 h-72 md:w-96"/>
+  </div>
+  <div className="father-comment grid grid-flow-row">
+    <div className="comments-field grid grid-flow-col md:ml-1 md:mr-1 md:pb-1 border-b border-gray-500">
+      <div className="interal-comments grid grid-flow-col md:pt-2">
+      <BiLike className="lought ml-1 text-gray-600 "/>
+      <FcLike  className="likes -ml-6 md:-ml-1"/>
+      <div className="span -ml-8 text-sm md:-ml-1 text-blue-600">43</div>
+
+      </div>
+     <div className="comments text-xs ml-28 mt-2 text-gray-600 font-semibold md:ml-48">14 Comments</div>
+
+    </div>
+    <div className="comment-container mt-3  mb-5 pb-2  grid grid-flow-col md:ml-1  md:mr-1 md:pb-5">
+      <div className="likee grid grid-flow-col">
+        <div>
+          <BiLike className="like-icon ml-1 text-gray-600"/>
+        </div>
+        <div className="like-p text-xs -ml-7 text-gray-600 md:-ml-6">Like</div>
+      </div>
+      <div className="comment grid grid-flow-col -ml-1 md:ml-2">
+        <div>
+          <FaRegComment className="comment-icon -ml-2 text-gray-600"/>
+        </div>
+        <div className="comment-p text-gray-600 -ml-7 text-xs md:-ml-6">Comment</div>
+      </div>
+      <div className="send grid grid-flow-col -ml-2">
+        <div>
+          <MdSend className="send-icon text-gray-600 -ml-2 md:ml-1"/>
+        </div>
+        <div className="send-p text-gray-600 text-xs -ml-7">Send</div>
+      </div>
+      <div className="share grid grid-flow-col">
+        <div>
+          < PiShareFat className="share-icon text-gray-600 -ml-1 md:ml-3"/>
+        </div>
+        <div className="share-p text-gray-600 text-xs mr-12 -ml-7 md:-ml-6 md:-mr-2">Share</div>
       </div>
     </div>
   </div>
 </div>
 </div>
 </div>
-<div className="right-scroll invisible">
-        <div className="right-c">
-          <p className="sponsored">Sponsored</p>
-          <div className="right-side-image1">
+
+<div className="right-scroll hidden sm:block lg:grid grid-flow-row md:ml-5 md:mt-16 static">
+        <div className="right-c lg:grid -mt-10 border-b border-gray-400 border-b-2 md:pb-1 md:mr-1">
+          <p className="sponsored text-gray-600 md:-mt-3 md:mb-3 md:font-semibold ">Sponsored</p>
+          <div className="right-side-image1 md:grid md:grid-flow-col-dense md:mb-1">
             <div>
-              <img src="./pic28.jpg" width={77} height={77} className="side-img"/>
+              <img src="./pic28.jpg" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md"/>
             </div>
-            <div>
-              <p className="side-p1">Perfect Your Photography<br/>On Autopilot</p>
-              <p className="side-p2">topazlabs.com</p>
+            <div className = "md:-ml-5 md:mt-3">
+              <p className="side-p1 md:text-xs md:font-semibold">Perfect Your Photography<br/>On Autopilot</p>
+              <p className="side-p2 md:text-xs md:text-gray-500">topazlabs.com</p>
             </div>
           </div>
-          <div className="right-side-image1">
+          <div className="right-side-image1 md:mb-1 md:grid md:grid-flow-col-dense md:mt-2">
             <div>
-              <img src="./pic28.jpg" width={77} height={77} className="side-img"/>
+              <img src="./pic28.jpg" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md"/>
             </div>
-            <div>
-              <p className="side-p3">Smart Portable Pumb for<br/>Car Bike Motorcycle Ball<br/>Lifebuoy Air Inflator...</p>
-              <p className="side-p2">fruimundo.com</p>
+            <div className="md:-ml-5 md:mt-2">
+              <p className="side-p3 md:text-xs md:font-semibold">Smart Portable Pumb for<br/>Car Bike Motorcycle Ball<br/>Lifebuoy Air Inflator...</p>
+              <p className="side-p2 md:text-xs md:text-gray-500">fruimundo.com</p>
             </div>
           </div>
         </div>
-        <div className="birth-c">
-          <p className="b-title">Birthdays</p>
-          <div className="birthday-container">
-            <div>< BsGift className="birth-icon"/></div>
-            <div className="birth-p">Hermi Queen and 12 others have<br/> birthdays today.</div>
+        <div className="birth-c md:mt-2 border-b border-gray-400 border-b-2 md:mr-1 md:pb-1">
+          <p className="b-title md:text-sm text-gray-500 md:mb-3">Birthdays</p>
+          <div className="birthday-container md:grid md:grid-flow-col">
+            <div>< BsGift className="birth-icon md:text-2xl text-blue-600 md:mr-2"/></div>
+            <div className="birth-p md:text-xs md:-ml-16">Hermi Queen and 12 others have<br/> birthdays today.</div>
           </div>
         </div>
         <div>
-        <div className="contact">
-          <div className="contact-c">Contacts</div>
-          <div>
-            <a href="#" className="contact-s"><BsSearch/></a>
-            <a href="#" className="closee"><BsThreeDots/></a>
+        <div className="contact md:grid md:grid-flow-col md:mt-2">
+          <div className="contact-c md:text-sm text-gray-500">Contacts</div>
+          <div className="md:grid md:grid-flow-col md:-mr-28">
+            <a href="#" className="contact-s md:text-sm  md:mt-1 md:-mr-10 md:ml-16"><BsSearch/></a>
+            <a href="#" className="closee   md:-ml-12 "><BsThreeDots/></a>
           </div>
         </div>
-        <div className="contact-cc">
-        <img src="./pic9.jpg" width={35} height={35} className="c-img"/>
-        <p className="c-p">Kidu Arsenal Ethiopia</p>
-        <button className="button"></button>
+        <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2">
+        <img src="./pic9.jpg" width={35} height={35} className="c-img rounded-full md:-mt-1  md:-mr-2 h-8 w-8 relative"/>
+        <p className="c-p text-sm md:-ml-20 font-medium ">Kidu Arsenal Ethiopia</p>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-20 right-60"></button>
         </div>
         
-        <div className="contact-cc">
-        <img src="./pic50.jpg" width={35} height={35} className="c-img"/>
-        <p className="c-p">Ali Buna Manche Ethiopia</p>
-        <button className="button"></button>
+        <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2 ">
+        <img src="./pic50.jpg" width={35} height={35} className="c-img rounded-full  h-8 w-8 relative"/>
+        <p className="c-p text-sm md:-ml-16 font-medium ">Ali Buna Manche Ethiopia</p>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-7  right-60"></button>
         </div>
-        <div className="contact-cc">
-        <img src="./pic48.jpg" width={35} height={35} className="c-img"/>
-        <p className="c-p">Abuki Z Kop-MoVvd</p>
-        <button className="button"></button>
+        <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2">
+        <img src="./pic48.jpg" width={35} height={35} className="c-img rounded-full h-8 w-8 relative -mr-6"/>
+        <p className="c-p text-sm md:-ml-16 font-medium">Abuki Z Kop-MoVvd</p>
+        <button className="button  bg-green-500 rounded-full h-3 w-3 absolute -bottom-5  right-60"></button>
         </div>
-        <div className="contact-cc">
-        <img src="./pic25.jpg" width={35} height={35} className="c-img"/>
-        <p className="c-p">Kidu Arsenal Ethiopia</p>
-        <button className="button"></button>
+        <div className="contact-cc md:mt-3 md:grid md:grid-flow-col md:ml-2">
+        <img src="./pic25.jpg" width={35} height={35} className="c-img  rounded-full h-8 w-8 relative -mr-5"/>
+        <p className="c-p text-sm md:-ml-16 font-medium">Kidu Arsenal Ethiopia</p>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute -bottom-16  right-60"></button>
         </div>
         </div>
       </div>
+
+
 
 
  </div>
@@ -468,3 +532,4 @@ function Body() {
   );
 }
 export default Body;
+

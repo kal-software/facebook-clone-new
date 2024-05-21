@@ -14,8 +14,8 @@ function Navbar() {
   return (
     <>
           
-      <div className="bg-white h-32 md:h-14 lg:h-14   shadow-sm shadow-slate-200 ">
-        <div className="lg:grid lg:grid-flow-col md:grid md:grid-flow-col lg:w-16 flex flex-row md:grid grid-flow-col">
+      <div className="bg-white  h-32 md:h-14 lg:h-14   shadow-sm shadow-slate-200 ">
+        <div className="lg:grid lg:grid-flow-col  md:grid md:grid-flow-col lg:w-16 flex flex-row md:grid grid-flow-col">
           <div className="lg:grid lg:grid-flow-col   md:grid grid- ">
             <FaFacebook className="text-blue-600 lg:text-3xl text-2xl ml-4  lg:ml-3 mt-4 md:text-3xl" />
             <input
