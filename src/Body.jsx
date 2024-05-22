@@ -42,7 +42,7 @@ function Body() {
   };
   return (
     <div>
-    <div className = "bg-gray-200  lg:grid lg:grid-flow-col lg:grid-cols-3 md:grid-cols-3 md:grid md:grid-flow-col"> 
+    <div className = "bg-gray-200   lg:grid lg:grid-flow-col lg:grid-cols-3 md:grid-cols-3 md:grid md:grid-flow-col lg:mt-12 md:mt-12 z-0 mt-32"> 
     <div className="left-c lg:h-96 md:h-96   lg:grid lg:grid-flow-row lg:ml-5 lg:w-44  md:grid md:grid-flow-row md:ml-5 md:w-44   ">
         <div className="name-div  hidden sm:block  lg:ml-5 md:-ml-1 lg:grid lg:grid-flow-col md:ml-5 md:grid md:grid-flow-col mt-3 mb-3  md:mt-3">
           <img src="./pic50.jpg" className=" lg:w-6 lg:h-6 md:w-5 md:h-5 md:mt-2  md:rounden-full rounded-full lg:-ml-5" />
@@ -123,37 +123,38 @@ function Body() {
           Privacy - Terms -Advertizing -Ad Choices . Cookies.<br/>More . Meta &copy; 2024
         </footer>
       </div>
-      <div className="mt-2 ml-2 md:overflow-auto overflow-scroll h-1/5 md:pr-2  mr-5 md:border-none md:-ml-20 md:w-86">
+      <div className="mt-2 ml-2  md:overflow-auto md:overflow-scroll md:h-1/5 md:pr-2 lg:overflow-auto lg:overflow-scroll lg:h-1/5 lg:pr-2  mr-5 md:border-none md:-ml-20 lg:-ml-28 md:w-86">
         
       <div className="mt-2 -mb-1  ">
         <Slider {...settings}>
           {Stories.map((story) => (
           <div className="mt-2">
-       <div><img src={story.image} className="w-24 h-28 rounded-md pl-1 "/></div> 
-        <div className="text-sm font-mono text-white -mt-10 ml-2 ">{story.text}</div>
+       <div><img src={story.image} className="w-24 h-32 lg:h-40 lg:w-40 rounded-md pl-1 "/></div> 
+        <div className="text-sm font-mono text-white -mt-10  ml-2 lg:ml-3 ">{story.text}</div>
+        <div>{story.button}</div>
         <div> <button className="w-6 h-6 rounded-full bg-green-400 absolute top-3 ml-2"></button> </div>
          </div>
              
             
           ))}
            </Slider>
-           <div className="middle-middle-div md:text-sm mt-6 bg-white w-72  md:pr-1 md:h-24 h-16 rounded-md md:w-full">
+           <div className="middle-middle-div md:text-sm mt-6 bg-white w-80  md:pr-1 md:h-24 h-16 rounded-md md:w-full ">
 <div className="middle-image-container grid grid-flow-col md:border-b md:border-b-1 sm:mt-1  md:pb-2 pt-5   md:border-gray   md:mt-6 md:pt-3  md:ml-3 md:mr-3 md:grid md:grid-flow-col ">
   <img src="./pic50.jpg" height={30} width={30} className="middle-image rounded-full ml-4  md:ml-2 md:w-6 w-6 h-6 md:h-6 md:rounded-full"/>
-  <input type="text" placeholder="What's on your mind kal?" className="input md:placeholder-sm pl-7 w-52 md:-ml-7 md:w-56 -ml-7 md:bg-white  border-gray-400 border-2 md:bg-gray-200 md:pl-2 rounded-xl placeholder-black placeholder-shown:text-sm"/>
+  <input type="text" placeholder="What's on your mind kal?" className="input md:placeholder-sm pl-7 w-52 md:-ml-7 md:w-56 lg:w-80 -ml-16 md:bg-white  border-gray-400 border md:bg-gray-200 md:pl-2 lg:pl-20 rounded-xl focus:outline-none placeholder-black placeholder-shown:text-sm lg:-ml-20"/>
 </div>
 <div  className="middle-manage md:text-sm md:mt-3 hidden md:mt-1sm:block md:grid md:grid-flow-col">
   <div className="liveDiv md:grid md:grid-flow-col md:ml-5  ">
-    <RiLiveFill className="video text-red-600"/>
-    <p className="video-p md:-mt-1 md:-ml-1">Live Video</p>
+    <RiLiveFill className="video text-red-600 lg:-mr-5"/>
+    <p className="video-p md:-mt-1 md:-ml-1 lg:-ml-5">Live Video</p>
   </div>
   <div className="photo-div md:grid md:grid-flow-col">
-    <BiSolidPhotoAlbum className="photo-icon text-green-400"/>
-    <p className="photo-p md:-mt-1 md:-ml-1">Photo/Video</p>
+    <BiSolidPhotoAlbum className="photo-icon text-green-400 lg:-mr-5"/>
+    <p className="photo-p md:-mt-1 md:-ml-1 lg:-ml-5">Photo/Video</p>
   </div>
   <div className="imoj-div md:grid md:grid-flow-col">
     <BiHappyAlt className="imoj-icon text-yellow-400"/>
-    <p className="imoj-p md:-mt-1 md:-ml-1">Felling/activity</p>
+    <p className="imoj-p md:-mt-1 md:-ml-1 lg:-ml-8">Felling/activity</p>
   </div>
 </div> 
 
@@ -172,8 +173,8 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col  ">
-   <a href="#" className="a">< BsThreeDots className="dots ml-16 md:ml-28 text-gray-600 "/></a>   
-   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 "/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots ml-28 md:ml-28 lg:-mr-24 lg:ml-52 text-gray-600 "/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 lg:ml-28 lg:-ml-5 text-gray-600 "/></a>    
     </div>
   </div>
   <div>
@@ -181,13 +182,13 @@ function Body() {
   </div>
   <div className="father-comment grid grid-flow-row">
     <div className="comments-field grid grid-flow-col border-b border-gray-500 md:ml-1 md:mr-1 ">
-      <div className="interal-comments mt-2   grid grid-flow-col">
+      <div className="interal-comments mt-2   grid grid-flow-col lg:mr-20">
       <BiLike className="lought ml-1  text-gray-600 "/>
-      <FcLike  className="likes -ml-6 md:-ml-1"/>
-      <div className="span -ml-8 text-sm text-blue-600 md:-ml-1">43</div>
+      <FcLike  className="likes -ml-6 md:-ml-1 lg:-ml-6"/>
+      <div className="span -ml-8 text-sm lg:-ml-8 text-blue-600 md:-ml-1">43</div>
 
       </div>
-     <div className="comments md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold">14 Comments</div>
+     <div className="comments lg:-mr-12 md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold">14 Comments</div>
 
     </div>
     <div className="comment-container md:ml-1 mt-3 mb-5 pb-2 grid grid-flow-col">
@@ -232,22 +233,22 @@ function Body() {
       </div>
     </div>
     <div className="right-close  w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots md:ml-28 ml-16 text-gray-600 "/></a>   
-   <a href="#" className="a"><IoMdClose className="close  ml-2 text-gray-600 "/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots md:ml-28 ml-28 text-gray-600 lg:-mr-24 lg:ml-52 "/></a>   
+   <a href="#" className="a"><IoMdClose className="close  ml-2 text-gray-600 lg:ml-28 lg:-ml-5 "/></a>    
     </div>
   </div>
   <div>
-    <img src="./pic8.jpg"  className="w-72 h-72 md:w-96"/>
+    <img src="./pic8.jpg"  className="w-full h-72 md:w-96 lg:w-full"/>
   </div>
   <div className="father-comment  grid grid-flow-row">
     <div className="comments-field  grid grid-flow-col md:ml-1 md:mr-1 border-b border-gray-500 border-b-2 md:pb-1">
-      <div className="interal-comments grid grid-flow-col md:pt-2">
+      <div className="interal-comments grid grid-flow-col md:pt-2 lg:mr-20">
       <BiLike className="lought ml-1 text-gray-600 "/>
-      <FcLike  className="likes -ml-6 md:-ml-1"/>
-      <div className="span md:-ml-1 -ml-8 text-sm text-blue-600">43</div>
+      <FcLike  className="likes -ml-6 md:-ml-1 lg:-ml-4"/>
+      <div className="span md:-ml-1 -ml-8 text-sm text-blue-600 lg:-ml-4">43</div>
 
       </div>
-     <div className="comments md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold">14 Comments</div>
+     <div className="comments md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold lg:-mr-12">14 Comments</div>
 
     </div>
     <div className="comment-container md:ml-1  md:mr-1  mt-3 mb-5 pb-2  grid grid-flow-col">
@@ -292,22 +293,22 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-16 text-gray-600 md:ml-28 ml-16"/></a>   
-   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600"/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 ml-16 lg:-mr-24 lg:ml-52"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
     </div>
   </div>
   <div>
-    <img src="./pic31.jpg" className="w-72 h-72 md:w-96"/>
+    <img src="./pic31.jpg" className="w-full h-72 md:w-96 lg:w-full"/>
   </div>
   <div className="father-comment grid grid-flow-row">
     <div className="comments-field grid grid-flow-col md:ml-1 md:mr-1 md:pb-1 border-b border-gray-500 border-b-2  ">
-      <div className="interal-comments grid grid-flow-col md:pt-2">
+      <div className="interal-comments grid grid-flow-col md:pt-2 lg:mr-20">
       <BiLike className="lought ml-1 text-gray-600 "/>
-      <FcLike  className="likes -ml-6 md:-ml-1"/>
-      <div className="span -ml-8 text-sm text-blue-600 md:-ml-1">43</div>
+      <FcLike  className="likes -ml-6 md:-ml-1 lg:-ml-4"/>
+      <div className="span -ml-8 text-sm text-blue-600 md:-ml-1 lg:-ml-4">43</div>
 
       </div>
-     <div className="comments  md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold">14 Comments</div>
+     <div className="comments  md:ml-48 text-xs ml-28 mt-2 text-gray-600 font-semibold lg:-mr-12">14 Comments</div>
 
     </div>
     <div className="comment-container md:ml-1  md:mr-1  mt-3  mb-5 pb-2  grid grid-flow-col">
@@ -352,22 +353,22 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-16 text-gray-600 md:ml-28"/></a>   
-   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600"/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 lg:-mr-24 lg:ml-52"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
     </div>
   </div>
   <div>
-    <img src="./pic48.jpg" width={534} height={400} className="w-72 h-72 md:w-96"/>
+    <img src="./pic48.jpg" width={534} height={400} className="w-full h-72 md:w-96 lg:w-full"/>
   </div>
   <div className="father-comment grid grid-flow-row">
     <div className="comments-field grid grid-flow-col md:ml-1 md:mr-1 md:pb-1 border-b border-gray-500">
-      <div className="interal-comments grid grid-flow-col md:pt-2">
+      <div className="interal-comments grid grid-flow-col md:pt-2 lg:mr-20">
       <BiLike className="lought ml-1 text-gray-600 "/>
-      <FcLike  className="likes -ml-6 md:-ml-1"/>
-      <div className="span -ml-8 text-sm text-blue-600 md:-ml-1">43</div>
+      <FcLike  className="likes -ml-6 md:-ml-1 lg:-ml-4"/>
+      <div className="span -ml-8 text-sm text-blue-600 md:-ml-1 lg:-ml-4">43</div>
 
       </div>
-     <div className="comments text-xs ml-28 mt-2 text-gray-600 font-semibold md:ml-48">14 Comments</div>
+     <div className="comments text-xs ml-28 mt-2 text-gray-600 font-semibold md:ml-48 lg:-mr-12">14 Comments</div>
 
     </div>
     <div className="comment-container mt-3  grid grid-flow-col md:ml-1  md:mr-1 md:pb-5">
@@ -413,22 +414,22 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-16 text-gray-600 md:ml-28"/></a>   
-   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600"/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 lg:-mr-24 lg:ml-52"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
     </div>
   </div>
   <div>
-    <img src="./pic43.jpg" className="w-72 h-72 md:w-96"/>
+    <img src="./pic43.jpg" className="w-full h-72 md:w-96 lg:w-full"/>
   </div>
   <div className="father-comment grid grid-flow-row">
     <div className="comments-field grid grid-flow-col md:ml-1 md:mr-1 md:pb-1 border-b border-gray-500">
-      <div className="interal-comments grid grid-flow-col md:pt-2">
+      <div className="interal-comments grid grid-flow-col md:pt-2 lg:mr-20">
       <BiLike className="lought ml-1 text-gray-600 "/>
-      <FcLike  className="likes -ml-6 md:-ml-1"/>
-      <div className="span -ml-8 text-sm md:-ml-1 text-blue-600">43</div>
+      <FcLike  className="likes -ml-6 md:-ml-1 lg:-ml-4"/>
+      <div className="span -ml-8 text-sm md:-ml-1 text-blue-600 lg:-ml-4">43</div>
 
       </div>
-     <div className="comments text-xs ml-28 mt-2 text-gray-600 font-semibold md:ml-48">14 Comments</div>
+     <div className="comments text-xs ml-28 mt-2 text-gray-600 font-semibold md:ml-48 lg:-mr-12">14 Comments</div>
 
     </div>
     <div className="comment-container mt-3  mb-5 pb-2  grid grid-flow-col md:ml-1  md:mr-1 md:pb-5">
@@ -462,63 +463,63 @@ function Body() {
 </div>
 </div>
 
-<div className="right-scroll hidden sm:block lg:grid grid-flow-row md:ml-5 md:mt-16 static">
-        <div className="right-c lg:grid -mt-10 border-b border-gray-400 border-b-2 md:pb-1 md:mr-1">
-          <p className="sponsored text-gray-600 md:-mt-3 md:mb-3 md:font-semibold ">Sponsored</p>
-          <div className="right-side-image1 md:grid md:grid-flow-col-dense md:mb-1">
+<div className="right-scroll hidden sm:block  md:ml-5 md:mt-16 static">
+        <div className="right-c lg:grid -mt-10 border-b border-gray-400 border-b-2 md:pb-1 md:mr-1  ">
+          <p className="sponsored text-gray-600 md:-mt-3 md:mb-3 md:font-semibold lg:-mb-1 ">Sponsored</p>
+          <div className="right-side-image1  md:grid md:grid-flow-col-dense md:mb-1 lg:mt-4">
             <div>
               <img src="./pic28.jpg" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md"/>
             </div>
-            <div className = "md:-ml-5 md:mt-3">
+            <div className = "md:-ml-5 md:mt-3 lg:-ml-32">
               <p className="side-p1 md:text-xs md:font-semibold">Perfect Your Photography<br/>On Autopilot</p>
               <p className="side-p2 md:text-xs md:text-gray-500">topazlabs.com</p>
             </div>
           </div>
-          <div className="right-side-image1 md:mb-1 md:grid md:grid-flow-col-dense md:mt-2">
+          <div className="right-side-image1  md:mb-1 md:grid md:grid-flow-col-dense md:mt-2">
             <div>
-              <img src="./pic28.jpg" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md"/>
+              <img src="./pic28.jpg" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md "/>
             </div>
-            <div className="md:-ml-5 md:mt-2">
+            <div className="md:-ml-5 md:mt-2  lg:-ml-32 ">
               <p className="side-p3 md:text-xs md:font-semibold">Smart Portable Pumb for<br/>Car Bike Motorcycle Ball<br/>Lifebuoy Air Inflator...</p>
               <p className="side-p2 md:text-xs md:text-gray-500">fruimundo.com</p>
             </div>
           </div>
         </div>
-        <div className="birth-c md:mt-2 border-b border-gray-400 border-b-2 md:mr-1 md:pb-1">
+        <div className="birth-c md:mt-2 border-b border-gray-400 border-b-2 md:mr-1 md:pb-1 ">
           <p className="b-title md:text-sm text-gray-500 md:mb-3">Birthdays</p>
           <div className="birthday-container md:grid md:grid-flow-col">
             <div>< BsGift className="birth-icon md:text-2xl text-blue-600 md:mr-2"/></div>
-            <div className="birth-p md:text-xs md:-ml-16">Hermi Queen and 12 others have<br/> birthdays today.</div>
+            <div className="birth-p md:text-xs md:-ml-16 lg:-ml-44">Hermi Queen and 12 others have<br/> birthdays today.</div>
           </div>
         </div>
         <div>
         <div className="contact md:grid md:grid-flow-col md:mt-2">
           <div className="contact-c md:text-sm text-gray-500">Contacts</div>
-          <div className="md:grid md:grid-flow-col md:-mr-28">
-            <a href="#" className="contact-s md:text-sm  md:mt-1 md:-mr-10 md:ml-16"><BsSearch/></a>
-            <a href="#" className="closee   md:-ml-12 "><BsThreeDots/></a>
+          <div className="md:grid md:grid-flow-col md:-mr-28 lg:-mr-36 lg:ml-9">
+            <a href="#" className="contact-s md:text-sm  md:mt-1 md:-mr-10 md:ml-16 lg:-mr-36  "><BsSearch/></a>
+            <a href="#" className="closee   md:-ml-12 lg:-ml-12"><BsThreeDots/></a>
           </div>
         </div>
         <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2">
-        <img src="./pic9.jpg" width={35} height={35} className="c-img rounded-full md:-mt-1  md:-mr-2 h-8 w-8 relative"/>
-        <p className="c-p text-sm md:-ml-20 font-medium ">Kidu Arsenal Ethiopia</p>
-        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-20 right-60"></button>
+        <img src="./pic9.jpg" width={35} height={35} className="c-img rounded-full md:-mt-1  md:-mr-2  h-8 w-8 relative"/>
+        <p className="c-p text-sm md:-ml-20 font-medium lg:-ml-40 lg:relative ">Kidu Arsenal Ethiopia</p>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-20 md:ml-5 md:mb-6  lg:ml-5 lg:mb-4 "></button>
         </div>
         
-        <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2 ">
+        <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2  ">
         <img src="./pic50.jpg" width={35} height={35} className="c-img rounded-full  h-8 w-8 relative"/>
-        <p className="c-p text-sm md:-ml-16 font-medium ">Ali Buna Manche Ethiopia</p>
-        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-7  right-60"></button>
+        <p className="c-p text-sm md:-ml-16 font-medium lg:-ml-40 ">Ali Buna Manche Ethiopia</p>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-7 md:ml-5 md:mb-7   lg:ml-5 lg:mb-5 "></button>
         </div>
         <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2">
-        <img src="./pic48.jpg" width={35} height={35} className="c-img rounded-full h-8 w-8 relative -mr-6"/>
-        <p className="c-p text-sm md:-ml-16 font-medium">Abuki Z Kop-MoVvd</p>
-        <button className="button  bg-green-500 rounded-full h-3 w-3 absolute -bottom-5  right-60"></button>
+        <img src="./pic48.jpg" width={35} height={35} className="c-img rounded-full h-8 w-8 relative -mr-6 lg:-mr-1"/>
+        <p className="c-p text-sm md:-ml-16 font-medium lg:-ml-40">Abuki Z Kop-MoVvd</p>
+        <button className="button  bg-green-500 rounded-full h-3 w-3 absolute -bottom-5 md:ml-5 md:mb-7   lg:ml-5 lg:mb-5 "></button>
         </div>
         <div className="contact-cc md:mt-3 md:grid md:grid-flow-col md:ml-2">
-        <img src="./pic25.jpg" width={35} height={35} className="c-img  rounded-full h-8 w-8 relative -mr-5"/>
-        <p className="c-p text-sm md:-ml-16 font-medium">Kidu Arsenal Ethiopia</p>
-        <button className="button bg-green-500 rounded-full h-3 w-3 absolute -bottom-16  right-60"></button>
+        <img src="./pic25.jpg" width={35} height={35} className="c-img  rounded-full h-8 w-8 relative -mr-5 lg:-mr-1"/>
+        <p className="c-p text-sm md:-ml-16 font-medium lg:-ml-40">Kidu Arsenal Ethiopia</p>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute -bottom-16 md:ml-5 md:mb-7  lg:ml-5 lg:mb-5 "></button>
         </div>
         </div>
       </div>

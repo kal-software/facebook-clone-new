@@ -1,8 +1,9 @@
 const Stories = [
   {
     image: "./pic32.jpg",
-    text: "Creatstory",
+    text: "Creatstory ",
     image2: "./pic41.jpg",
+    button:<button className="bg-blue-600 w-6 h-6 text-white rounded-full border-white border absolute -mt-11 left-8 lg:left-10 ">+</button>
   },
   {
     image: "./pic40.jpg",
