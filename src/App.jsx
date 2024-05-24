@@ -1,6 +1,8 @@
 
 import Body from './Body'
+import Groups from './Groups'
 import Navbar from './Navbar'
+import Vedio from './Vedio'
 
 function App() {
 
@@ -8,7 +10,7 @@ function App() {
     <>
       <div>
         <Navbar/>
-        <Body/>
+        <Vedio/>
       </div>
     </>
   )

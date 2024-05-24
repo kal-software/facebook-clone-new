@@ -42,7 +42,7 @@ function Body() {
   };
   return (
     <div>
-    <div className = "bg-gray-200   lg:grid lg:grid-flow-col lg:grid-cols-3 md:grid-cols-3 md:grid md:grid-flow-col lg:mt-12 md:mt-12 z-0 mt-32"> 
+    <div className = "bg-gray-200  lg:grid lg:grid-flow-col lg:grid-cols-3 md:grid-cols-3 md:grid md:grid-flow-col lg:mt-12 md:mt-12 z-0 mt-32"> 
     <div className="left-c lg:h-96 md:h-96   lg:grid lg:grid-flow-row lg:ml-5 lg:w-44  md:grid md:grid-flow-row md:ml-5 md:w-44   ">
         <div className="name-div  hidden sm:block  lg:ml-5 md:-ml-1 lg:grid lg:grid-flow-col md:ml-5 md:grid md:grid-flow-col mt-3 mb-3  md:mt-3">
           <img src="./pic50.jpg" className=" lg:w-6 lg:h-6 md:w-5 md:h-5 md:mt-2  md:rounden-full rounded-full lg:-ml-5" />
@@ -138,10 +138,10 @@ function Body() {
             
           ))}
            </Slider>
-           <div className="middle-middle-div md:text-sm mt-6 bg-white w-80  md:pr-1 md:h-24 h-16 rounded-md md:w-full ">
+           <div className="middle-middle-div md:text-sm mt-6 bg-white w-72  md:pr-1 md:h-24 h-16 rounded-md md:w-full ml-4 lg:-ml-1 md:-ml-1">
 <div className="middle-image-container grid grid-flow-col md:border-b md:border-b-1 sm:mt-1  md:pb-2 pt-5   md:border-gray   md:mt-6 md:pt-3  md:ml-3 md:mr-3 md:grid md:grid-flow-col ">
   <img src="./pic50.jpg" height={30} width={30} className="middle-image rounded-full ml-4  md:ml-2 md:w-6 w-6 h-6 md:h-6 md:rounded-full"/>
-  <input type="text" placeholder="What's on your mind kal?" className="input md:placeholder-sm pl-7 w-52 md:-ml-7 md:w-56 lg:w-80 -ml-16 md:bg-white  border-gray-400 border md:bg-gray-200 md:pl-2 lg:pl-20 rounded-xl focus:outline-none placeholder-black placeholder-shown:text-sm lg:-ml-20"/>
+  <input type="text" placeholder="What's on your mind kal?" className="input md:placeholder-sm pl-7 w-52 md:-ml-7 md:w-56 lg:w-80 -ml-5 md:bg-white  border-gray-400 border md:bg-gray-200 md:pl-2 lg:pl-20 rounded-xl focus:outline-none placeholder-black placeholder-shown:text-sm lg:-ml-20"/>
 </div>
 <div  className="middle-manage md:text-sm md:mt-3 hidden md:mt-1sm:block md:grid md:grid-flow-col">
   <div className="liveDiv md:grid md:grid-flow-col md:ml-5  ">
@@ -173,7 +173,7 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col  ">
-   <a href="#" className="a">< BsThreeDots className="dots ml-28 md:ml-28 lg:-mr-24 lg:ml-52 text-gray-600 "/></a>   
+   <a href="#" className="a">< BsThreeDots className="dots ml-20 md:ml-28 lg:-mr-24 lg:ml-52 text-gray-600 "/></a>   
    <a href="#" className="a"><IoMdClose className="close ml-2 lg:ml-28 lg:-ml-5 text-gray-600 "/></a>    
     </div>
   </div>
@@ -233,7 +233,7 @@ function Body() {
       </div>
     </div>
     <div className="right-close  w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots md:ml-28 ml-28 text-gray-600 lg:-mr-24 lg:ml-52 "/></a>   
+   <a href="#" className="a">< BsThreeDots className="dots md:ml-28 ml-20 text-gray-600 lg:-mr-24 lg:ml-52 "/></a>   
    <a href="#" className="a"><IoMdClose className="close  ml-2 text-gray-600 lg:ml-28 lg:-ml-5 "/></a>    
     </div>
   </div>
@@ -293,7 +293,7 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 ml-16 lg:-mr-24 lg:ml-52"/></a>   
+   <a href="#" className="a">< BsThreeDots className="dots ml-20 text-gray-600 md:ml-28 ml-16 lg:-mr-24 lg:ml-52"/></a>   
    <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
     </div>
   </div>
@@ -353,7 +353,7 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 lg:-mr-24 lg:ml-52"/></a>   
+   <a href="#" className="a">< BsThreeDots className="dots ml-20 text-gray-600 md:ml-28 lg:-mr-24 lg:ml-52"/></a>   
    <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
     </div>
   </div>
@@ -414,7 +414,7 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 lg:-mr-24 lg:ml-52"/></a>   
+   <a href="#" className="a">< BsThreeDots className="dots ml-20 text-gray-600 md:ml-28 lg:-mr-24 lg:ml-52"/></a>   
    <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
     </div>
   </div>
