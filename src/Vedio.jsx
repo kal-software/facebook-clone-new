@@ -9,9 +9,9 @@ return(
             <div></div>
             <div className="bg-green-300 grid grid-flow-col col-span-2">
                <div>
-                <h1 className="text-black">Video</h1>
+                <h1 className="text-black text-2xl">Video</h1>
                </div>
-               <div className="grid grid-flow-col w-16 ml-64 -mr-4 text-xl">
+               <div className="grid grid-flow-col w-16 ml-64 -mr-1 text-xl">
                   <IoMdPerson/>
                   <FaSearch/>
 

@@ -10,7 +10,7 @@ function App() {
     <>
       <div>
         <Navbar/>
-        <Vedio/>
+        <Body/>
       </div>
     </>
   )
