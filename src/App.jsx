@@ -11,7 +11,7 @@ function App() {
     <>
       <div className=''>
         <Navbar/>
-        <Marketplace/>
+        <MarketPlace/>
       </div>
     </>
   )
