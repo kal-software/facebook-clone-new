@@ -6,6 +6,7 @@ import MarketPlace from './MarketPlace';
 import Groups from './Groups';
 import Vedio from './Vedio';
 import Group2 from './Group2';
+import Navbar2 from './Navbar2';
 /*
 import Groups from './Groups';
 import Navbar from "./Navbar"
@@ -14,8 +15,8 @@ import Navbar from "./Navbar"
 
 
 function App() {
-  
-    return (
+  return (
+/*   
      <>
    <Router>
   <Navbar/>
@@ -40,6 +41,11 @@ function App() {
 </div>
 </> 
 */
+<>
+<div>
+  <Navbar2/>
+</div>
+</>
   )
 }
 
