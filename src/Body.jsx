@@ -136,7 +136,7 @@ function Body() {
     <GrGallery className="text-green-300 -ml-10 mt-1 text-lg"/>
   </div>
 </div>
-      <div className="mt-1  z-0 md:-mt-1  md:overflow-scroll md:h-1/5 md:pr-2 lg:overflow-auto lg:overflow-scroll lg:h-1/5  mr-5 md:border-none md:-ml-20 lg:-ml-20 md:w-86 lg:mt-8 md:mt-10 ">
+      <div className="mt-1  z-0 md:-mt-1 md:overflow-auto md:overflow-scroll md:h-1/5 md:pr-2 lg:overflow-auto lg:overflow-scroll lg:h-1/5  mr-5 md:border-none md:-ml-20 lg:-ml-20 md:w-86 lg:mt-8 md:mt-10 ">
         
       <div className="-mt-3 -mb-1  ">
         <Slider {...settings}>
