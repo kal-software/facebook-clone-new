@@ -111,7 +111,7 @@ function Navbar2() {
         < FiHome  className="mr-8" />
         <RiGroup2Line className="mr-8" />
         <MdOutlineOndemandVideo className="mr-8"/>
-        <CiShop className="mr-8">
+        <CiShop className="mr-8"/>
         <IoNotifications className="mr-8"/>
         <CgMenuGridO  className="mr-8"/>
         </div>
