@@ -17,7 +17,7 @@ return(
     <>
     <div>
     <div className="md:hidden lg:hidden">
-        <div className="mt-36 grid grid-flow-col ">
+        <div className="mt-8 grid grid-flow-col ">
             <div className="text-md font-semibold ml-3 ">
                 <h1>Marketplace</h1>
             </div>
@@ -94,15 +94,15 @@ return(
     <div className="invisible md:visible lg:visible mt-10">
     <div className="Market-c grid grid-flow-col col-span-2 mt-3 ">
     <div>
-    <div className="market-left-all  bg-white w-80 -mt-2  pt-1 pl-2 pb-60  shadow-md mt-7">
-        <div className="markrt-place-inner">
+    <div className="market-left-all  bg-white w-80  pt-1 pl-2 pb-60  shadow-md mt-6">
+        <div className="markrt-place-inner ">
 
-        <div className="market-div grid grid-flow-col text-lg mt-2">
+        <div className="market-div grid grid-flow-col text-lg mt-4">
             <p className="market-p font-semibold">Marketplace</p>
             <CiShop className="market-icon mt-1 bg-gray-300  ml-32 w-6 h-6 p-1 rounded-full "/>
         </div>
         <input type="text" placeholder="Search Marketplace " className="Search-Marketplace bg-gray-200 rounded-2xl w-72 mt-2 py-1 pl-10 placeholder:text-sm relative focus:outline-none text-sm"/>
-      <a href="#"><BsSearch  className="market-search absolute top-24 mt-7 ml-5  text-sm"/></a> 
+      <a href="#"><BsSearch  className="market-search absolute top-24 mt-8 ml-5  text-sm"/></a> 
       <a href="#" className="browse bg-gray-200 rounded-sm w-72 grid grid-flow-col mt-3">
         <CiShop className="brows-icon mt-1 ml-2 bg-blue-700 text-white text-xl rounded-full p-1 mb-1 mr-5"/>
         <p className="brows-all-p -ml-32  text-sm mt-1 font-semibold">Browse all</p>

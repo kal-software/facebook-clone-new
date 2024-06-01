@@ -5,6 +5,11 @@ import Body from './Body';
 import MarketPlace from './MarketPlace';
 import Groups from './Groups';
 import Vedio from './Vedio';
+import Group2 from './Group2';
+/*
+import Groups from './Groups';
+import Navbar from "./Navbar"
+*/
 
 
 
@@ -20,12 +25,21 @@ function App() {
       <Route path='/Groups' element={<Groups/>} className="routes-group"/>
       <Route path='/MarketPlace' element={<MarketPlace/>}/>
       <Route path='/Vedio' element={<Vedio/>}/>
+      <Route path='/Group2' element={<Group2/>}/>
+
  </Routes>
     </Router>
      </>
+    
       
     
- 
+/*<>
+<div> 
+  <Navbar/>
+  <Group2/>
+</div>
+</> 
+*/
   )
 }
 

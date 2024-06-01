@@ -22,14 +22,14 @@ function Vedio(){
 return(
     <>
     <div className="bg-gray-200 md:grid md:grid-flow-col mt-10">
-        <div className="lg:bg-white md:bg-white lg:w-72 md:w-72 w-full -mt-2  pt-1 pl-2 pb-60  shadow-md mt-7 lg:mt-7 " >
+        <div className="lg:bg-white md:bg-white  lg:w-72 md:w-72 w-full -mt-2  pt-1 pl-2 pb-60  shadow-md mt-7 lg:mt-6 " >
             <div className="invisible md:visible ">
             <div className="market-div md:grid md:grid-flow-col md:mt-3 md:ml-2 md:text-lg md:font-semibold ">
     <p className="market-p ">Video</p>
     <IoSettingsSharp className="group-icon mt-1 bg-gray-400 rounded-full  md:-mr-20 md:ml-10 md:w-5 md:h-5 "/>
 </div>
-<input type="text" placeholder="Search groups" className="Search-Marketplacee fixed focus:outline-none bg-gray-100 rounded-xl w-56 pl-9 placeholder:text-sm md:ml-1 md:mt-2 relative"/>
-<a href="#"><FaSearch  className="market-search absolute top-24 md:top-12  mt-20 left-6 md:text-sm "/></a> 
+<input type="text" placeholder="Search groups" className="Search-Marketplacee fixed focus:outline-none bg-gray-100 rounded-xl w-56 pl-9 placeholder:text-sm md:ml-1 md:mt-2 lg:mt-3 relative"/>
+<a href="#"><FaSearch  className="market-search absolute top-24 lg md:top-12  mt-20 left-6 md:text-sm "/></a> 
 <a href="#" className="browse grid grid-flow-col h-7 md:mt-3 pl-1 md:ml-2 md:w-56 bg-gray-100 ">
 < MdOndemandVideo className="brows-icon text-white mr-2 bg-blue-500  rounded-full text-sm w-5  ml-1 h-5 p-1 mt-1 "/>
 <p className="brows-all-pp text-sm font-semibold -ml-24 mt-1 ">Home</p>
@@ -81,7 +81,7 @@ return(
 </div>
 
  </div>
-        <div className=" grid grid-flow-col   col-span-2 md:invisible visible -mt-40 ml-1">
+        <div className=" grid grid-flow-col   col-span-2 md:invisible visible -mt-72 ml-1">
                <div>
                 <h1 className="text-black text-xl ml-2 font-semibold mt-3">Video</h1>
                </div>
@@ -91,7 +91,7 @@ return(
 
                </div>
             </div>
-            <div className="grid grid-flow-col w-32 mt-1 ml-1 -mb-10 visible md:invisible">
+            <div className="grid grid-flow-col w-32 mt-1 ml-1 -mb-28 visible md:invisible">
                 <div className="bg-blue-100 text-blue-600 text-sm rounded-xl pl-3 font-semibold ">For you</div>
                 <div className="ml-1 font-semibold">Live</div>
             </div>

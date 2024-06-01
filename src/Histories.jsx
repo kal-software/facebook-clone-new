@@ -2,18 +2,18 @@ const Stories = [
   {
     image: "./pic32.jpg",
     text: "Creatstory ",
-    image2: "./pic41.jpg",
+    image2: "./pic40.jpg ",
     button:<button className="bg-blue-600 w-6 h-6 text-white rounded-full border-white border absolute -mt-11 left-8 lg:left-10 ">+</button>
   },
   {
     image: "./pic40.jpg",
     text: "Rick Man Miko",
-    image2: "./pic49.jpg",
+    image2: "./pic41.jpg",
   },
   {
     image: "./pic50.jpg",
     text: "Seifemikael tesfaye",
-    image2: "./pic44.jpg",
+    image2: "./pic48.jpg",
   },
   {
     image: "./pic9.jpg",

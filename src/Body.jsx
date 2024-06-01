@@ -44,8 +44,8 @@ function Body() {
   };
   return (
     <div>
-    <div className = "bg-gray-200  lg:grid lg:grid-flow-col lg:grid-cols-3 md:grid-cols-3 md:grid md:grid-flow-col lg:mt-7 md:mt-10 mt-32"> 
-    <div className="left-c lg:h-96 md:h-96   lg:grid lg:grid-flow-row lg:ml-5 lg:w-44  md:grid md:grid-flow-row md:ml-5 md:w-44  mt-6 ">
+    <div className = "bg-gray-200  lg:grid lg:grid-flow-col lg:grid-cols-3 md:grid-cols-3 md:grid md:grid-flow-col lg:mt-10 md:mt-10 mt-32"> 
+    <div className="left-c lg:h-96 md:h-96   lg:grid lg:grid-flow-row lg:ml-5 lg:w-44  md:grid md:grid-flow-row md:ml-5 md:w-44  mt-2 ">
         <div className="name-div  hidden sm:block  lg:ml-5 md:-ml-1 lg:grid lg:grid-flow-col md:ml-5 md:grid md:grid-flow-col mt-3 mb-3  md:mt-5">
           <img src="./pic50.jpg" className=" lg:w-6 lg:h-6 md:w-5 md:h-5 md:mt-2  md:rounden-full rounded-full lg:-ml-5 md:-ml-5" />
           <a href="#" className="KA">
@@ -125,27 +125,28 @@ function Body() {
           Privacy - Terms -Advertizing -Ad Choices . Cookies.<br/>More . Meta &copy; 2024
         </footer>
       </div>
-      <div className=" md:hidden lg:hidden grid grid-flow-col mt-1 bg-white w-full pt-2 pl-3 border-b border-b-1 border-b-gray-400 pb-5 ">
+      <div className=" md:hidden lg:hidden grid grid-flow-col -mt-32 bg-white w-full pt-2 pl-3 border-b border-b-1 border-b-gray-400 pb-5 ">
   <div>
   < IoPersonCircleOutline className="text-3xl text-gray-400"/>
   </div>
   <div>
-    <input type="text"placeholder="What's on your mind?" className="border-2 w-60 -ml-10 rounded-2xl pl-3 border-gray-400 " />
+    <input type="text"placeholder="What's on your mind?" className="border-2 w-60 -ml-10 rounded-2xl pl-3 border-gray-400 focus:outline-none" />
   </div>
   <div>
     <GrGallery className="text-green-300 -ml-10 mt-1 text-lg"/>
   </div>
 </div>
-      <div className="mt-2 ml-2 z-0 md:-mt-1 md:overflow-auto md:overflow-scroll md:h-1/5 md:pr-2 lg:overflow-auto lg:overflow-scroll lg:h-1/5 lg:pr-2  mr-5 md:border-none md:-ml-20 lg:-ml-28 md:w-86 lg:mt-10 md:mt-10">
+      <div className="mt-1  z-0 md:-mt-1 md:overflow-auto md:overflow-scroll md:h-1/5 md:pr-2 lg:overflow-auto lg:overflow-scroll lg:h-1/5  mr-5 md:border-none md:-ml-20 lg:-ml-20 md:w-86 lg:mt-8 md:mt-10 ">
         
-      <div className="mt-2 -mb-1  ">
+      <div className="-mt-3 -mb-1  ">
         <Slider {...settings}>
           {Stories.map((story) => (
-          <div className="mt-2">
-       <div><img src={story.image} className="w-24 h-32 lg:h-40 lg:w-40 rounded-md pl-1 "/></div> 
+          <div className="mt-1  ">
+       <div className="w-36 pr-8 rounded-lg pt-2"><img src={story.image} className="rounded-lg  w-24 h-32 lg:h-44 lg:w-52  pl-1  "/></div> 
         <div className="text-sm font-mono text-white -mt-10  ml-2 lg:ml-3 ">{story.text}</div>
         <div>{story.button}</div>
-        <div> <button className="w-6 h-6 rounded-full bg-green-400 absolute top-3 ml-2"></button> </div>
+        <div> <img src = {story.image2} className="w-9 h-9 border-2 border-blue-800 rounded-full absolute top-4 ml-2"/> </div>
+
          </div>
              
             
@@ -154,7 +155,7 @@ function Body() {
            <div className=" hidden sm:block middle-middle-div md:text-sm mt-6 bg-white w-72  md:pr-1 md:h-24 h-16 rounded-md md:w-full ml-4 lg:-ml-1 md:-ml-1">
 <div className="middle-image-container grid grid-flow-col md:border-b md:border-b-1 sm:mt-1  md:pb-2 pt-5   md:border-gray   md:mt-6 md:pt-3  md:ml-3 md:mr-3 md:grid md:grid-flow-col ">
   <img src="./pic50.jpg" height={30} width={30} className="middle-image rounded-full ml-4  md:ml-2 md:w-6 w-6 h-6 md:h-6 md:rounded-full"/>
-  <input type="text" placeholder="What's on your mind kal?" className="input md:placeholder-sm pl-7 w-52 md:-ml-7 md:w-56 lg:w-80 -ml-5 md:bg-white  border-gray-400 border md:bg-gray-200 md:pl-2 lg:pl-20 rounded-xl focus:outline-none placeholder-black placeholder-shown:text-sm lg:-ml-20"/>
+  <input type="text" placeholder="What's on your mind kal?" className="input md:placeholder-sm pl-7 w-52 md:-ml-7 md:w-56 lg:w-80 -ml-5 md:bg-white  border-gray-400 border md:bg-gray-200 md:pl-2 lg:pl-20 rounded-xl focus:outline-none placeholder-black placeholder-shown:text-sm lg:-ml-16"/>
 </div>
 <div  className="middle-manage md:text-sm md:mt-3 hidden md:mt-1sm:block md:grid md:grid-flow-col">
   <div className="liveDiv md:grid md:grid-flow-col md:ml-5  ">
@@ -172,7 +173,7 @@ function Body() {
 </div> 
 
 </div>
-<div className=" mt-2 bg-white pt-3 md:pt-1  ">
+<div className=" mt-2 bg-white pt-3 md:pt-1 ml-1 lg:ml-0 md:ml-0 ">
   <div className="info-div  grid  grid-flow-col w-44  md:mt-5 md:pt-1 md:pl-1">
     <div className=" grid grid-flow-col pl-3 ">
       <div>
@@ -186,8 +187,8 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col  ">
-   <a href="#" className="a">< BsThreeDots className="dots ml-28 md:ml-28 lg:-mr-24 lg:ml-60 text-gray-600 "/></a>   
-   <a href="#" className="a"><IoMdClose className="close ml-2 lg:ml-28 lg:-ml-8 text-gray-600 "/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots ml-28 md:ml-28 lg:-mr-20 lg:ml-56 text-gray-600 "/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 lg:ml-24 lg:-ml-8 text-gray-600 "/></a>    
     </div>
   </div>
   <div>
@@ -246,8 +247,8 @@ function Body() {
       </div>
     </div>
     <div className="right-close  w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots md:ml-28 ml-28 text-gray-600 lg:-mr-24 lg:ml-60 "/></a>   
-   <a href="#" className="a"><IoMdClose className="close  ml-2 text-gray-600 lg:ml-28 lg:-ml-5 "/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots md:ml-28 ml-28 text-gray-600 lg:-mr-20 lg:ml-56 "/></a>   
+   <a href="#" className="a"><IoMdClose className="close  ml-2 text-gray-600 lg:ml-24 lg:-ml-5 "/></a>    
     </div>
   </div>
   <div>
@@ -306,8 +307,8 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 ml-16 lg:-mr-24 lg:ml-60"/></a>   
-   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 ml-16 lg:-mr-20 lg:ml-56"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-24 lg:-ml-5"/></a>    
     </div>
   </div>
   <div>
@@ -366,8 +367,8 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 lg:-mr-24 lg:ml-60"/></a>   
-   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 lg:-mr-20 lg:ml-56"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-24 lg:-ml-5"/></a>    
     </div>
   </div>
   <div>
@@ -427,8 +428,8 @@ function Body() {
       </div>
     </div>
     <div className="right-close w-1 grid grid-flow-col">
-   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 lg:-mr-24 lg:ml-60"/></a>   
-   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-28 lg:-ml-5"/></a>    
+   <a href="#" className="a">< BsThreeDots className="dots ml-28 text-gray-600 md:ml-28 lg:-mr-20 lg:ml-56"/></a>   
+   <a href="#" className="a"><IoMdClose className="close ml-2 text-gray-600 lg:ml-24 lg:-ml-5"/></a>    
     </div>
   </div>
   <div>
@@ -516,23 +517,23 @@ function Body() {
         <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2">
         <img src="./pic9.jpg" width={35} height={35} className="c-img rounded-full md:-mt-1  md:-mr-2  h-8 w-8 relative"/>
         <p className="c-p text-sm md:-ml-20 font-medium lg:-ml-40 lg:relative ">Kidu Arsenal Ethiopia</p>
-        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-16 md:ml-5 md:mb-8  lg:ml-5 lg:mb-4 "></button>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-16 md:ml-5 md:mb-8  lg:ml-5 lg:mb-1 "></button>
         </div>
         
         <div className="contact-cc md:mt-4 md:grid md:grid-flow-col md:ml-2  ">
         <img src="./pic50.jpg" width={35} height={35} className="c-img rounded-full  h-8 w-8 relative"/>
         <p className="c-p text-sm md:-ml-16 font-medium lg:-ml-40 ">Ali Buna Manche Ethiopia</p>
-        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-3 md:ml-5 md:mb-9   lg:ml-5 lg:mb-5 "></button>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute bottom-3 md:ml-5 md:mb-9   lg:ml-5 lg:mb-3 "></button>
         </div>
         <div className="contact-cc md:mt-5 md:grid md:grid-flow-col md:ml-2">
         <img src="./pic48.jpg" width={35} height={35} className="c-img rounded-full h-8 w-8 relative -mr-6 lg:-mr-1"/>
         <p className="c-p text-sm md:-ml-16 font-medium lg:-ml-40">Abuki Z Kop-MoVvd</p>
-        <button className="button  bg-green-500 rounded-full h-3 w-3 absolute -bottom-10  md:ml-5 md:mb-9   lg:ml-5 lg:mb-5 "></button>
+        <button className="button  bg-green-500 rounded-full h-3 w-3 absolute -bottom-10  md:ml-5 md:mb-9   lg:ml-5 lg:mb-2 "></button>
         </div>
         <div className="contact-cc md:mt-6 md:grid md:grid-flow-col md:ml-2">
         <img src="./pic25.jpg" width={35} height={35} className="c-img  rounded-full h-8 w-8 relative -mr-5 lg:-mr-1"/>
         <p className="c-p text-sm md:-ml-16 font-medium lg:-ml-40">Kidu Arsenal Ethiopia</p>
-        <button className="button bg-green-500 rounded-full h-3 w-3 absolute -bottom-24  md:ml-5 md:mb-9  lg:ml-5 lg:mb-5 "></button>
+        <button className="button bg-green-500 rounded-full h-3 w-3 absolute -bottom-24  md:ml-5 md:mb-9  lg:ml-5 lg:mb-2 "></button>
         </div>
         </div>
       </div>
