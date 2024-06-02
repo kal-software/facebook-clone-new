@@ -22,14 +22,14 @@ function Navbar2() {
    
       <div className="flex flex-row text-gray-500 mt-4 justify-between lg:ml-28">
       <div class="relative inline-block group">
-  <i class="fa fa-home active:text-blue-500 active:bg-transparent "><FiHome  className=" md:mr-5 text-2xl lg:-ml-12 lg:mr-20 lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:w-20 h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md "/>
+  <i class="fa fa-home active:text-blue-500 active:bg-transparent "><FiHome  className=" md:mr-10 text-2xl lg:-ml-12 lg:mr-20 md:h-6 md:hover:bg-gray-200  lg:h-6 md:hover:w-20   lg:hover:bg-gray-200 lg:hover:w-20 md:hover:h-10 md:w-20   lg:hover:h-10 lg:w-20 h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md "/>
 </i>
-  <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 -ml-16  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
+  <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 md:ml-3 lg:-ml-10  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
     Home
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><MdOutlineOndemandVideo className="md:mr-5 text-2xl  lg:mr-12  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10" />
+  <i class="fa fa-home"><MdOutlineOndemandVideo className="md:mr-5 text-2xl  lg:mr-12  lg:h-6 lg:hover:bg-gray-200 md:h-6 md:hover:bg-gray-200 lg:hover:w-20 md:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10 md:hover:h-10 md:w-20 md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md " />
 
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-3  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
@@ -37,21 +37,23 @@ function Navbar2() {
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"> <CiShop className="md:mr-5 text-2xl lg:mr-12 font-bold  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10" />
+  <i class="fa fa-home"> 
+  <CiShop className="md:mr-5 text-2xl lg:mr-12 font-bold  lg:h-6 lg:hover:bg-gray-200 md:h-6 md:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 md:hover:w-20 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10 md:hover:h-10 md:w-20 md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md" />
 </i>
   <span class="invisible  absolute z-10 w-auto px-3 py-2 mt-2 -ml-1  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
     MarketPlace
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><RiGroup2Line className="md:mr-5 text-2xl  lg:mr-12  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
+  <i class="fa fa-home">
+    <RiGroup2Line className=" md:hover:h-10 md:w-20 md:hover:w-20 md:hover:bg-gray-200 md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md md:mr-5 text-2xl  lg:mr-12  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 "/>
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-3  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
    Groups
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><RiGamepadLine className=" md:mr-6 text-2xl  lg:mr-4  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
+  <i class="fa fa-home"><RiGamepadLine className="md:hover:h-10 md:w-20 md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md  md:h-6 md:hover:bg-gray-200 md:hover:w-20  md:mr-6 text-2xl  lg:mr-4  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
 
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-2  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
@@ -97,23 +99,23 @@ function Navbar2() {
 
       </div>
     </div>
-    <div className="bg-white md:invisible lg:invisible visible -mt-14">
+    <div className="bg-white md:invisible lg:invisible visible -mt-14 -mr-4">
         <div className="flex flex-row ">
-            <div><h1 className="ml-2 text-blue-600 font-semibold text-xl">facebook</h1>
+            <div><h1 className="ml-2 text-blue-600 font-semibold text-2xl">facebook</h1>
 </div>
-            <div className="flex flex-row ml-32 mt-1">
-<IoIosSearch className="text-xl font-semibold mr-3"/>
-<FaFacebookMessenger />
+            <div className="flex flex-row ml-52 mt-2">
+<IoIosSearch className="text-2xl font-semibold mr-3"/>
+<FaFacebookMessenger className="text-xl font-semibold mr-3" />
 
             </div>
         </div>
-        <div className="flex flex-row pl-2 mt-2 border-b-2 pb-2">
-        < FiHome  className="mr-8" />
-        <RiGroup2Line className="mr-8" />
-        <MdOutlineOndemandVideo className="mr-8"/>
-        <CiShop className="mr-8"/>
-        <IoNotifications className="mr-8"/>
-        <CgMenuGridO  className="mr-8"/>
+        <div className="flex flex-row pl-7 mt-2 border-b-2 pb-2">
+        < FiHome  className="mr-10 text-2xl" />
+        <RiGroup2Line className="mr-10 text-2xl" />
+        <MdOutlineOndemandVideo className="mr-10 text-2xl"/>
+        <CiShop className="mr-10 text-2xl"/>
+        <IoNotifications className="mr-10 text-2xl"/>
+        <CgMenuGridO  className="mr-8 text-2xl"/>
         </div>
     </div>
     </>
