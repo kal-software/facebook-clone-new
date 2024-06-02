@@ -29,7 +29,7 @@ function Navbar2() {
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><MdOutlineOndemandVideo className="md:mr-5 text-2xl  lg:mr-12 lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10" />
+  <i class="fa fa-home"><MdOutlineOndemandVideo className="md:mr-5 text-2xl  lg:mr-12  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10" />
 
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-3  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
@@ -37,21 +37,21 @@ function Navbar2() {
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"> <CiShop className="md:mr-5 text-2xl lg:mr-12 font-bold lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10" />
+  <i class="fa fa-home"> <CiShop className="md:mr-5 text-2xl lg:mr-12 font-bold  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10" />
 </i>
-  <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 -ml-1  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
+  <span class="invisible  absolute z-10 w-auto px-3 py-2 mt-2 -ml-1  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
     MarketPlace
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><RiGroup2Line className="md:mr-5 text-2xl  lg:mr-12 lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
+  <i class="fa fa-home"><RiGroup2Line className="md:mr-5 text-2xl  lg:mr-12  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-3  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
    Groups
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><RiGamepadLine className=" md:mr-6 text-2xl  lg:mr-4 lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
+  <i class="fa fa-home"><RiGamepadLine className=" md:mr-6 text-2xl  lg:mr-4  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
 
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-2  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
