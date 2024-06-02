@@ -46,14 +46,14 @@ function Navbar2() {
 </div>
 <div class="relative inline-block group">
   <i class="fa fa-home">
-    <RiGroup2Line className=" md:hover:h-10 md:w-20 md:hover:w-20 md:hover:bg-gray-200 md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md md:mr-5 text-2xl  lg:mr-12  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 "/>
+    <RiGroup2Line className=" md:hover:h-10 md:w-20 md:hover:w-20 md:hover:bg-gray-200 md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md md:mr-5 font-bold text-2xl  lg:mr-12  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 "/>
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-3  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
    Groups
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><RiGamepadLine className="md:hover:h-10 md:w-20 md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md  md:h-6 md:hover:bg-gray-200 md:hover:w-20  md:mr-6 text-2xl  lg:mr-4  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
+  <i class="fa fa-home"><RiGamepadLine className="md:hover:h-10 md:w-20 md:hover:p-2 md:hover:-mt-2 md:hover:rounded-md  md:h-6 md:hover:bg-gray-200 md:hover:w-20  md:mr-6 text-2xl font-bold  lg:mr-4  lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
 
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-2  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
