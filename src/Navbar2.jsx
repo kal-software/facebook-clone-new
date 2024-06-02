@@ -20,16 +20,16 @@ function Navbar2() {
         <IoIosSearch className="text-gray-500 bg-slate-100 w-10 h-10  rounded-full p-2 ml-2" />
       </div>
    
-      <div className="flex flex-row text-gray-500 mt-4 justify-between ml-32">
+      <div className="flex flex-row text-gray-500 mt-4 justify-between lg:ml-28">
       <div class="relative inline-block group">
-  <i class="fa fa-home active:text-blue-500 active:bg-transparent "><FiHome  className=" md:mr-5 text-2xl -ml-16 mr-10 w-6 h-6 hover:bg-gray-200 hover:w-20 hover:h-10 w-20 h-10 hover:p-2 hover:-mt-2 hover:rounded-md "/>
+  <i class="fa fa-home active:text-blue-500 active:bg-transparent "><FiHome  className=" md:mr-5 text-2xl lg:-ml-12 lg:mr-20 lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:w-20 h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md "/>
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 -ml-16  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
     Home
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><MdOutlineOndemandVideo className="md:mr-5 text-2xl  mr-10 w-6 h-6 hover:bg-gray-200 hover:w-20 hover:h-10 hover:p-2 hover:-mt-2 hover:rounded-md w-20 h-10" />
+  <i class="fa fa-home"><MdOutlineOndemandVideo className="md:mr-5 text-2xl  lg:mr-12 lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10" />
 
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-3  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
@@ -37,21 +37,21 @@ function Navbar2() {
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"> <CiShop className="md:mr-5 text-2xl  mr-10 font-bold w-6 h-6 hover:bg-gray-200 hover:w-20 hover:h-10 hover:p-2 hover:-mt-2 hover:rounded-md w-20 h-10" />
+  <i class="fa fa-home"> <CiShop className="md:mr-5 text-2xl lg:mr-12 font-bold lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10" />
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 -ml-1  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
     MarketPlace
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><RiGroup2Line className="md:mr-5 text-2xl  mr-10 w-6 h-6 hover:bg-gray-200 hover:w-20 hover:h-10 hover:p-2 hover:-mt-2 hover:rounded-md w-20 h-10"/>
+  <i class="fa fa-home"><RiGroup2Line className="md:mr-5 text-2xl  lg:mr-12 lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-3  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
    Groups
   </span>
 </div>
 <div class="relative inline-block group">
-  <i class="fa fa-home"><RiGamepadLine className=" md:mr-6 text-2xl  mr-4 w-6 h-6 hover:bg-gray-200 hover:w-20 hover:h-10 hover:p-2 hover:-mt-2 hover:rounded-md w-20 h-10"/>
+  <i class="fa fa-home"><RiGamepadLine className=" md:mr-6 text-2xl  lg:mr-4 lg:w-6 lg:h-6 lg:hover:bg-gray-200 lg:hover:w-20 lg:hover:h-10 lg:hover:p-2 lg:hover:-mt-2 lg:hover:rounded-md lg:w-20 h-10"/>
 
 </i>
   <span class="invisible absolute z-10 w-auto px-3 py-2 mt-2 ml-2  min-w-max rounded-md shadow-md bg-gray-700 text-white text-xs group-hover:visible">
