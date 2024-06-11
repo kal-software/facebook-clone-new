@@ -32,12 +32,12 @@ const Stories = [
   },
   {
     image: "./pic8.jpg",
-    text: "Abbay Tv",
+    text: "Abbay Tv Follow",
     image2: "./pic9.jpg",
   },
   {
     image: "./pic30.jpg",
-    text: "BBC News",
+    text: "BBC News Feed",
     image2: "./pic31.jpg",
   },
   {
@@ -47,7 +47,7 @@ const Stories = [
   },
   {
     image: "./pic27.jpg",
-    text: "Fashion",
+    text: "Fashion Design ",
     image2: "./pic28.jpg",
   },
 ];

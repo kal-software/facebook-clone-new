@@ -6,3 +6,16 @@
 body{
     background-color: rgb(237, 241, 245);
 }
+
+.slick-prev::before {
+    color: black;
+  font-size: 3rem;
+  z-index: 2;
+  }
+  .slick-next::before {
+    color: white;
+    font-size: 3rem;
+    margin-left: -95px;
+    z-index: 2;
+  }
+ 

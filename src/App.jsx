@@ -7,6 +7,7 @@ import Groups from './Groups';
 import Vedio from './Vedio';
 import Group2 from './Group2';
 import Navbar2 from './Navbar2';
+import HomePage from './HomePage';
 /*
 import Groups from './Groups';
 import Navbar from "./Navbar"
@@ -44,6 +45,8 @@ function App() {
 <>
 <div>
   <Navbar2/>
+  <HomePage/>
+
 </div>
 </>
   )
