@@ -11,6 +11,7 @@ body{
     color: black;
   font-size: 3rem;
   z-index: 2;
+  
   }
   .slick-next::before {
     color: white;

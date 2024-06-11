@@ -144,7 +144,7 @@ function HomePage() {
                 <div className="text-sm font-mono text-white -mt-9 font-bold  ml-4 ">
                   {story.text}
                 </div>
-                <div>{story.button}</div>
+                <div>{story.icon}</div>
                 <div>
                   {" "}
                   <img
@@ -764,7 +764,7 @@ function HomePage() {
           <p className="sponsored text-gray-600 md:-mt-3 md:mb-3 md:font-semibold lg:-mb-1 ">Sponsored</p>
           <div className="right-side-image1  md:grid md:grid-flow-col-dense md:mb-1 lg:mt-4">
             <div>
-              <img src="./pic28.jpg" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md"/>
+              <img src="./im17.jpeg" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md"/>
             </div>
             <div className = "md:-ml-5 md:mt-3 ">
               <p className="side-p1 md:text-xs md:font-semibold ml-6">Perfect Your Photography<br/>On Autopilot</p>
@@ -773,7 +773,7 @@ function HomePage() {
           </div>
           <div className="right-side-image1  md:mb-1 md:grid md:grid-flow-col-dense md:mt-2">
             <div>
-              <img src="./pic28.jpg" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md "/>
+              <img src="/im24.webp" width={77} height={77} className="side-img md:w-20 md:h-20 md:rounded-md "/>
             </div>
             <div className="md:-ml-5 md:mt-2   ">
               <p className="side-p3 md:text-xs md:font-semibold ml-6">Smart Portable Pumb for<br/>Car Bike Motorcycle Ball<br/>Lifebuoy Air Inflator...</p>
