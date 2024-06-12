@@ -166,7 +166,7 @@ function HomePage() {
               <input
                 type="text"
                 placeholder="What's on your mind kal?"
-                className="input md:placeholder-sm pl-7  bg-slate-100  md:-ml-7 md:w-56 lg:h-10 lg:w-96 -ml-5 md:pl-2 lg:pl-3  placeholder:text-gray-400 rounded-3xl focus:outline-none placeholder-shown:text-sm lg:-ml-6 "
+                className="input md:placeholder-sm pl-7  bg-slate-100  md:-ml-7 md:w-56 lg:h-10 lg:w-96 -ml-2 md:pl-2 lg:pl-3  placeholder:text-gray-400 rounded-3xl focus:outline-none placeholder-shown:text-sm lg:ml-1 "
               />
             </div>
             <div className="middle-manage md:text-sm md:mt-3 hidden md:mt-1sm:block md:grid md:grid-flow-col">
