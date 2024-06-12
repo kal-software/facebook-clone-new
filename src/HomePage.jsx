@@ -131,7 +131,7 @@ function HomePage() {
           </footer>
         </div>
 
-        <div className="-mt-3 -mb-1  w-1/2 ml-80">
+        <div className="-mt-3 -mb-1  w-1/2 ml-72">
           <Slider {...settings}>
             {Stories.map((story) => (
               <div className="mt-1  z-0 ">
